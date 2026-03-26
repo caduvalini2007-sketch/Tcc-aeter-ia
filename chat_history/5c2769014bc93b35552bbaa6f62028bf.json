@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique programaçao orientada a objeto",
+    "timestamp": "2025-11-15T01:13:11.714588"
+  },
+  {
+    "role": "agent",
+    "content": "A programação orientada a objetos (POO) é uma abordagem de programação que organiza o código em torno de objetos que representam conceitos reais ou abstratos. Aqui estão os principais conceitos da POO: * **Objeto**: Uma entidade que representa um conceito real ou abstrato, como uma pessoa, um carro ou um banco de dados. * **Classe**: Uma definição de um tipo de objeto, que define as propriedades e métodos que um objeto pode ter. * **Herança**: A capacidade de um objeto de herdar propriedades e métodos de outro objeto. * **Polimorfismo**: A capacidade de um objeto de se comportar de maneira diferente dependendo do contexto em que é usado. * **Encapsulamento**: A capacidade de um objeto de esconder suas propriedades e métodos de outros objetos. * **Abstração**: A capacidade de um objeto de representar um conceito abstrato de maneira simplificada. A POO ajuda a criar programas mais organizados, escaláveis e fáceis...(continuação...",
+    "timestamp": "2025-11-15T01:23:39.884586"
+  }
+]

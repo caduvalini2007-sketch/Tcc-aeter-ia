@@ -1,0 +1,45 @@
+[
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:39:04.213996"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta.",
+    "timestamp": "2026-02-15T05:39:05.083827"
+  },
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:40:06.652057"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta adequada.",
+    "timestamp": "2026-02-15T05:40:06.964635",
+    "search_performed": false
+  },
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:41:10.218836"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta adequada.",
+    "timestamp": "2026-02-15T05:41:10.537734",
+    "search_performed": false
+  },
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:42:25.991283"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta adequada.",
+    "timestamp": "2026-02-15T05:42:26.304221",
+    "search_performed": false
+  }
+]

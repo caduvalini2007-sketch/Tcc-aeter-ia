@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "fale sobre a linguagem de programaçao java",
+        "timestamp": "2025-10-30T17:20:20.385911"
+    },
+    {
+        "role": "agent",
+        "content": "Java é uma linguagem de programação orientada a objetos, amplamente utilizada em desenvolvimento de software. Ela é conhecida por sua flexibilidade e capacidade de ser utilizada em uma variedade de aplicações, desde sistemas de banco de dados até aplicativos de desktop e móveis. Java é escrito em um estilo de programação que permite a criação de classes, objetos e métodos, e é executado em máquinas que possuem um sistema operacional. A linguagem é composta por uma variedade de linguagens de programação, incluindo Java SE, Java ME e Java EE. \n\nSe você tiver alguma dúvida específica sobre Java, sinta-se à vontade para perguntar.",
+        "timestamp": "2025-10-30T17:20:49.394626"
+    },
+    {
+        "role": "user",
+        "content": "oque é programaçao orientada a objeto me explique detalhadamente",
+        "timestamp": "2025-10-30T17:21:43.248059"
+    },
+    {
+        "role": "agent",
+        "content": "Programação orientada a objetos é uma abordagem de desenvolvimento de software que se baseia na criação de classes e objetos, que são representados por objetos em um sistema de computador. Essa abordagem permite que os programadores criem sistemas de computador mais complexos e flexíveis, capazes de lidar com múltiplos dados e processos de forma eficiente.\n\nAqui estão os passos básicos para criar um objeto em programação orientada a objetos:\n\n1.  Crie uma classe: Uma classe é um arquivo de código que define uma estrutura de dados e métodos que podem ser executados por objetos. As classes são as unidades básicas de programação orientada a objetos.\n2.  Crie objetos: Os objetos são instâncias de classes. Eles são criados a partir de uma classe e podem ser manipulados e acessados por meio de métodos.\n3.  Defina métodos: Os métodos são funções que podem ser executadas por objetos. Eles são definidos em uma classe e podem ser chamados por objetos.\n4.  Atribua atributos: Os atributos são variáveis que armazenam valores. Eles são atribuídos a objetos e podem ser acessados por meio de métodos.\n5.  Crie um programa: Um programa é um conjunto de instruções que são executadas por um objeto. Eles são definidos em uma classe e podem ser executados por objetos.\n\nAqui está um exemplo simples de programação orientada a objetos em Java:\n\n```java\npublic class Caixa {\n    private double valor;\n    private String tipo;\n\n    public Caixa(double valor, String tipo) {\n        this.valor = valor;\n        this.tipo = tipo;\n    }\n\n    public void depositar(double valor) {\n        this.valor += valor;\n    }\n\n    public void saque(double valor) {\n        if (valor",
+        "timestamp": "2025-10-30T17:23:01.832226"
+    }
+]

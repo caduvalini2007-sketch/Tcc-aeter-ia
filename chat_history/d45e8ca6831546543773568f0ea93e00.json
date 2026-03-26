@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique a linguagem de programaçao cobol",
+    "timestamp": "2025-11-18T11:17:41.815984"
+  },
+  {
+    "role": "agent",
+    "content": "1. O que é COBOL?\n\nCOBOL é uma linguagem de programação de curto nome que significa \"Common Business-Oriented Language\". Foi criada nos anos 1950 pelo governo dos Estados Unidos para ajudar a processar dados de forma mais rápida e eficiente.\n\n2. Características da linguagem COBOL:\n\n•   **Fácil de aprender e usar**: COBOL é conhecida por ser uma das linguagens de programação mais fáceis de aprender e usar, especialmente para aqueles que já têm conhecimento em outras linguagens.\n•   **Versátil**: COBOL pode ser usada em uma variedade de aplicações, desde sistemas de banco de dados até processadores de dados.\n•   **Compatível**: COBOL é compatível com uma ampla gama de sistemas operacionais, incluindo Windows, Linux e Unix.\n•   **Extensa biblioteca**: COBOL tem uma vasta biblioteca de bibliotecas e módulos que podem ser utilizados para realizar tarefas específicas.\n\n3. Tipos de declarações em COBOL\n\n-   **Declarações de variáveis**: Em COBOL, as variáveis são declaradas usando a palavra-chave \"DATA\" ou \"ENVIRONMENT\".\n-   **Declarações de procedimentos**: As declarações de procedimentos são feitas usando a palavra-chave \"PROGRAM\" ou \"PROCEDURE\".\n-   **Declarações de dados**: As declarações de dados são feitas usando a palavra-chave \"DATA DIVISION\".\n\n4. Exemplo de programa em COBOL\n\n```\nPROGRAM-IDENTIFICAÇÃO\nIDENTIFICAÇÃO DO PROGRAMA\nPROGRAM-NOME\nMAIN-PROGRAM\n```\n\n```\nDATA DIVISION\nWORKING-STORAGE SECTION\n01  VARIÁVEL-DE-EXEMPLO\n   05  VALOR-DE-EXEMPLO\n     10  VALOR-DE-EXEMPLO-1\n     20  VALOR-DE-EXEMPLO-2\n     30  VALOR-DE-EXEMPLO-3\nEND DATA DIVISION\n\nPROCEDURE DIVISION.\nMAIN-PROGRAM.\n    DISPLAY \"Bem-vindo ao programa em COBOL!\"\n    MOVE 10 TO VALOR-DE-EXEMPLO-1\n    MOVE 20 TO VALOR-DE-EX",
+    "timestamp": "2025-11-18T11:21:59.705921"
+  }
+]

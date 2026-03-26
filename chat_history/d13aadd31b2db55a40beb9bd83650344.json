@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:41:14.680027"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta adequada.",
+    "timestamp": "2026-02-15T05:41:14.686195",
+    "search_performed": false
+  }
+]

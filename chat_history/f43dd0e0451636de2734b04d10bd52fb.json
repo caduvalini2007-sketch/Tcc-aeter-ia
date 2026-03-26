@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "ola",
+    "timestamp": "2026-02-15T05:32:37.598935"
+  },
+  {
+    "role": "agent",
+    "content": "Desculpe, não consegui gerar uma resposta.",
+    "timestamp": "2026-02-15T05:32:37.600438"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me fale uma receita de lasanha",
+    "timestamp": "2025-10-31T20:50:45.676070"
+  },
+  {
+    "role": "agent",
+    "content": "Claro! Aqui vai uma receita simples de lasanha: Ingredientes: • 8 folhas de lasanha • 1 xícara de molho de tomate • 1 xícara de queijo parmesão ralado • 1 xícara de queijo ricota • 1 cebola picada • 2 dentes de alho picados • 1 xícara de carne moída (opcional) • 1 colher de sopa de óleo de oliva • Sal e pimenta a gosto Modo de preparo: 1. Pré-aqueça o forno a 180°C. 2. Cozinhe a carne moída (se estiver usando) e reserve. 3. Em uma tigela, misture o molho de tomate, queijo parmesão, queijo ricota, cebola e alho. 4. Coloque uma camada de molho na base de uma assadeira, seguida de uma camada de folhas de lasanha. 5. Espalhe metade do molho-queijo mistura sobre as folhas de lasanha. 6. Adicione a carne moída (se estiver usando) e espalhe metade do queijo parmesão ralado. 7. Repita as camadas:...(continuação...",
+    "timestamp": "2025-10-31T20:58:54.469971"
+  }
+]

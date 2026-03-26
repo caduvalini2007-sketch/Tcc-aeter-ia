@@ -1,0 +1,26 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ message }} - Aether IA</title>
+  <style>
+    :root{--bg:#0b0f14;--text:#e6eef6;--accent:#58a6ff;--muted:#9aa6b2}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+    .error-container{max-width:600px;text-align:center}
+    .error-icon{font-size:80px;margin-bottom:24px}
+    h1{font-size:32px;margin-bottom:16px}
+    p{color:var(--muted);font-size:16px;line-height:1.6;margin-bottom:32px}
+    .btn{display:inline-block;padding:12px 24px;background:var(--accent);color:#fff;text-decoration:none;border-radius:8px;font-weight:700;transition:transform 0.2s}
+    .btn:hover{transform:translateY(-2px)}
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-icon">⚠️</div>
+    <h1>{{ message }}</h1>
+    <p>{{ details }}</p>
+    <a href="/" class="btn">← Voltar para Home</a>
+  </div>
+</body>
+</html>

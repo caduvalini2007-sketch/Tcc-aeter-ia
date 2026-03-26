@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "content": "me explique detalhadamente a linguagem de programaçao c#",
+    "timestamp": "2025-10-30T19:37:41.629961"
+  },
+  {
+    "role": "agent",
+    "content": "",
+    "timestamp": "2025-10-30T19:39:06.073465"
+  },
+  {
+    "role": "user",
+    "content": "me explique detalhadamente a linguagem de programaçao c#",
+    "timestamp": "2025-10-30T19:40:19.196009"
+  },
+  {
+    "role": "agent",
+    "content": "",
+    "timestamp": "2025-10-30T19:41:01.601819"
+  },
+  {
+    "role": "user",
+    "content": "me explique detalhadamente a linguagem de programaçao c#",
+    "timestamp": "2025-10-30T19:47:48.725080"
+  },
+  {
+    "role": "agent",
+    "content": "",
+    "timestamp": "2025-10-30T19:49:20.343973"
+  }
+]

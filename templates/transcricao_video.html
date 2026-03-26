@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aether IA — Transcrição de Vídeo</title>
+  <style>
+    /* TEMA ESCURO  */
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1419;
+      --sidebar:#0b1116;
+      --muted:#9aa6b2;
+      --text:#e6eef6;
+      --accent:#58a6ff;
+      --accent-2:#2bd7ff;
+      --border: rgba(255,255,255,0.04);
+      --glass: rgba(255,255,255,0.02);
+      --shadow: 0 12px 36px rgba(2,6,23,0.7);
+      --radius: 12px;
+      --glass-2: rgba(255,255,255,0.01);
+      --input-bg: rgba(255,255,255,0.03);
+    }
+
+    /* TEMA CLARO */
+    :root[data-theme="light"]{
+      --bg:#f5f7fa;
+      --panel:#ffffff;
+      --sidebar:#fafbfc;
+      --muted:#6b7280;
+      --text:#1f2937;
+      --accent:#0969da;
+      --accent-2:#0969da;
+      --border: rgba(0,0,0,0.08);
+      --glass: rgba(0,0,0,0.02);
+      --shadow: 0 4px 16px rgba(0,0,0,0.08);
+      --glass-2: rgba(0,0,0,0.01);
+      --input-bg: #f9fafb;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;transition:background 0.3s ease}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .app{display:flex;height:100vh;gap:20px;padding:28px;}
+
+    /* SIDEBAR */
+    .sidebar{
+      width:300px;background:var(--sidebar);
+      border-radius:var(--radius);padding:20px;border:1px solid var(--border);
+      box-shadow:var(--shadow);display:flex;flex-direction:column;gap:18px;
+      transition: background 0.3s ease, border 0.3s ease;
+    }
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px;box-shadow:0 8px 30px rgba(88,166,255,0.12)}
+    .brand-title{font-weight:800;font-size:18px}
+    .brand-sub{font-size:13px;color:var(--muted);margin-top:4px}
+
+    .info-box{padding:14px;border-radius:10px;background:var(--glass);border:1px solid var(--border);transition:background 0.3s ease}
+    .info-box .label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px}
+    .info-box .value{font-size:16px;font-weight:700;color:var(--accent)}
+
+    .sidebar .actions{display:flex;flex-direction:column;gap:8px}
+    .btn{padding:12px 16px;border-radius:10px;background:transparent;border:1px solid var(--border);color:var(--text);cursor:pointer;font-weight:700;transition:all 0.2s ease;font-size:14px;width:100%;text-align:center}
+    .btn:hover{background:var(--glass);transform:translateY(-1px)}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#fff;border:0;box-shadow:0 8px 24px rgba(43,215,255,0.06)}
+    .btn.primary:hover{box-shadow:0 12px 32px rgba(43,215,255,0.12)}
+    .btn:disabled{opacity:0.5;cursor:not-allowed;transform:none}
+    .small{font-size:13px;color:var(--muted);line-height:1.5}
+
+    .theme-toggle{display:flex;align-items:center;justify-content:space-between;padding:10px;border-radius:10px;background:var(--glass);border:1px solid var(--border);transition:background 0.3s ease}
+
+    .switch{width:56px;height:30px;border-radius:999px;background:var(--input-bg);padding:4px;position:relative;cursor:pointer;transition:background 0.3s ease}
+    .knob{width:22px;height:22px;border-radius:50%;background:var(--text);position:absolute;left:4px;top:4px;transition:transform .3s ease, background 0.3s ease}
+    .switch.on{background:linear-gradient(90deg,var(--accent),var(--accent-2))}
+    .switch.on .knob{transform:translateX(26px);background:#fff}
+
+    /* MAIN */
+    .main{flex:1;display:flex;flex-direction:column;gap:14px}
+    .topbar{display:flex;justify-content:space-between;align-items:flex-start;padding-right:8px}
+    h1{font-size:20px}
+    .subtitle{color:var(--muted);font-size:13px;margin-top:6px}
+
+    .layout{display:flex;gap:18px;align-items:flex-start;height:calc(100vh - 150px)}
+    .left-panel{flex:1;min-width:360px;display:flex;flex-direction:column;gap:12px}
+
+    .card{background:var(--panel);border-radius:12px;padding:20px;border:1px solid var(--border);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px;transition:background 0.3s ease, border 0.3s ease}
+    
+    .input-group{display:flex;flex-direction:column;gap:8px}
+    .input-group label{font-size:13px;font-weight:600;color:var(--muted)}
+    .input-group input[type="text"],
+    .input-group input[type="url"]{
+      width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border);
+      background:var(--input-bg);color:var(--text);font-size:14px;
+      transition:all 0.3s ease;
+    }
+    .input-group input:focus{outline:none;border-color:var(--accent);background:rgba(88,166,255,0.02)}
+
+    .file-input-wrapper{
+      border:2px dashed var(--border);border-radius:10px;padding:20px;
+      text-align:center;cursor:pointer;transition:all 0.3s ease;
+      background:var(--glass);position:relative;
+    }
+    .file-input-wrapper:hover{border-color:var(--accent);background:rgba(88,166,255,0.02)}
+    .file-input-wrapper.drag{border-color:var(--accent);background:rgba(88,166,255,0.05)}
+    .file-input-wrapper input[type="file"]{display:none}
+    .file-icon{font-size:40px;margin-bottom:8px}
+    .file-text{font-weight:600;margin-bottom:4px}
+
+    .divider{
+      display:flex;align-items:center;gap:12px;margin:8px 0;
+      font-size:12px;color:var(--muted);text-transform:uppercase;
+      letter-spacing:1px;
+    }
+    .divider::before,
+    .divider::after{content:'';flex:1;height:1px;background:var(--border)}
+
+    .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+    .btn.ghost:hover{background:var(--glass)}
+
+    .status-box{
+      padding:14px;border-radius:10px;border:1px solid var(--border);
+      background:var(--glass);font-size:13px;display:flex;align-items:center;
+      gap:10px;min-height:48px;
+    }
+    .status-box.processing{border-color:var(--accent);background:rgba(88,166,255,0.05)}
+    .status-box.success{border-color:#3fb950;background:rgba(63,185,80,0.05)}
+    .status-box.error{border-color:#f85149;background:rgba(248,81,73,0.05)}
+
+    .spinner{
+      width:20px;height:20px;border:3px solid var(--border);
+      border-top-color:var(--accent);border-radius:50%;
+      animation:spin 0.8s linear infinite;
+    }
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    textarea{
+      width:100%;min-height:360px;padding:14px;border-radius:12px;
+      border:1px solid var(--border);background:var(--input-bg);
+      color:var(--text);resize:vertical;font-size:14px;line-height:1.8;
+      font-family:'Courier New', monospace;transition:background 0.3s ease, border 0.3s ease
+    }
+    textarea:focus{outline:none;border-color:var(--accent)}
+
+    select{
+      padding:10px 12px;border-radius:8px;border:1px solid var(--border);
+      background:var(--input-bg);color:var(--text);font-size:14px;
+      transition:all 0.3s ease;cursor:pointer;
+    }
+    select:focus{outline:none;border-color:var(--accent)}
+
+    .progress-bar{
+      height:6px;background:var(--border);border-radius:10px;
+      overflow:hidden;margin-top:8px;
+    }
+    .progress-fill{
+      height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      width:0%;transition:width 0.3s ease;border-radius:10px;
+    }
+
+    footer{color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6}
+
+    @media (max-width:1000px){ 
+      .app{padding:12px;flex-direction:column} 
+      .layout{flex-direction:column;height:auto} 
+      .sidebar{width:100%;padding:14px} 
+      .brand{flex-wrap:wrap}
+      .info-box{margin-bottom:8px}
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">AE</div>
+        <div>
+          <div class="brand-title">Aether IA</div>
+          <div class="brand-sub">Transcrição • Whisper AI</div>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <div class="label">🎯 Status do Modelo</div>
+        <div class="value">Whisper Base</div>
+      </div>
+
+      <div class="info-box">
+        <div class="label">⏱️ Tempo estimado</div>
+        <div class="value" id="estimatedTime">~5-10 min</div>
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="transcribeBtn" onclick="transcribe()">
+          ✨ Iniciar Transcrição
+        </button>
+        <button class="btn ghost" onclick="clearForm()">
+          🗑️ Limpar Tudo
+        </button>
+      </div>
+
+      <div class="theme-toggle">
+        <div class="small">🌓 Tema</div>
+        <div id="themeSwitch" class="switch" title="Alternar tema"><div class="knob"></div></div>
+      </div>
+
+      <div>
+        <div class="small">💡 <strong>Dica:</strong> Para vídeos longos, o processamento pode levar vários minutos. YouTube e uploads locais são suportados.</div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="topbar">
+        <div>
+          <h1>🎬 Transcrição de Vídeo/Áudio</h1>
+          <div class="subtitle">Extraia texto de vídeos do YouTube ou arquivos locais usando Whisper AI</div>
+        </div>
+        <div class="small">🔒 Processamento: <strong>Local</strong></div>
+      </div>
+
+      <div class="layout">
+        <section class="left-panel">
+          <!-- FORM CARD -->
+          <div class="card">
+            <h3 style="margin-bottom:8px">📥 Origem do Vídeo/Áudio</h3>
+            
+            <div class="input-group">
+              <label>🔗 Link do YouTube</label>
+              <input 
+                type="url" 
+                id="youtubeUrl" 
+                placeholder="https://www.youtube.com/watch?v=..."
+                onchange="handleSourceChange('url')"
+              />
+            </div>
+
+            <div class="divider">OU</div>
+
+            <div class="input-group">
+              <label>📁 Upload de Arquivo (vídeo ou áudio)</label>
+              <div class="file-input-wrapper" id="fileDropzone">
+                <input 
+                  type="file" 
+                  id="fileInput" 
+                  accept="audio/*,video/*"
+                  onchange="handleFileSelect()"
+                />
+                <div class="file-icon">🎥</div>
+                <div class="file-text">Arraste o arquivo aqui</div>
+                <div class="small">ou clique para selecionar • MP4, MP3, WAV, M4A, MKV...</div>
+                <div id="fileInfo" class="small" style="margin-top:8px;color:var(--accent);font-weight:600"></div>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label>🌍 Idioma do Áudio</label>
+              <select id="language">
+                <option value="pt">🇧🇷 Português</option>
+                <option value="en">🇺🇸 Inglês</option>
+                <option value="es">🇪🇸 Espanhol</option>
+                <option value="fr">🇫🇷 Francês</option>
+                <option value="de">🇩🇪 Alemão</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="ja">🇯🇵 Japonês</option>
+                <option value="ko">🇰🇷 Coreano</option>
+                <option value="auto">🔄 Detectar Automaticamente</option>
+              </select>
+            </div>
+
+            <div id="statusBox" class="status-box">
+              <span>✅ Pronto para transcrever</span>
+            </div>
+
+            <div id="progressContainer" style="display:none">
+              <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RESULT CARD -->
+          <div class="card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+              <h3>📝 Transcrição</h3>
+              <div style="display:flex;gap:8px">
+                <button class="btn ghost" id="copyBtn" onclick="copyTranscription()" style="padding:8px 12px;font-size:13px">
+                  📋 Copiar
+                </button>
+                <button class="btn ghost" id="downloadBtn" onclick="downloadTranscription()" style="padding:8px 12px;font-size:13px">
+                  ⬇️ Baixar
+                </button>
+              </div>
+            </div>
+            <textarea id="transcription" placeholder="O texto transcrito aparecerá aqui após o processamento...
+
+Aguardando arquivo ou URL..." readonly></textarea>
+          </div>
+
+          <footer class="small">
+            ⚙️ <strong>Tecnologias:</strong> OpenAI Whisper (modelo base) • pytubefix • moviepy • Flask<br>
+            🔒 <strong>Privacidade:</strong> Todo processamento é feito localmente no servidor. Nenhum dado é enviado para serviços externos (exceto download do YouTube).
+          </footer>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // ==========================================
+    // SISTEMA DE TEMA
+    // ==========================================
+    let currentTheme = 'dark';
+    const themeSwitch = document.getElementById('themeSwitch');
+    const htmlRoot = document.documentElement;
+
+    function applyTheme(theme) {
+      currentTheme = theme;
+      if (theme === 'light') {
+        htmlRoot.setAttribute('data-theme', 'light');
+        themeSwitch.classList.add('on');
+      } else {
+        htmlRoot.removeAttribute('data-theme');
+        themeSwitch.classList.remove('on');
+      }
+    }
+
+    applyTheme('dark');
+    themeSwitch.addEventListener('click', () => {
+      applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
+
+    // ==========================================
+    // FILE DRAG & DROP
+    // ==========================================
+    const fileDropzone = document.getElementById('fileDropzone');
+    const fileInput = document.getElementById('fileInput');
+
+    fileDropzone.addEventListener('click', () => fileInput.click());
+
+    fileDropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      fileDropzone.classList.add('drag');
+    });
+
+    fileDropzone.addEventListener('dragleave', () => {
+      fileDropzone.classList.remove('drag');
+    });
+
+    fileDropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      fileDropzone.classList.remove('drag');
+      const files = e.dataTransfer.files;
+      if (files && files[0]) {
+        fileInput.files = files;
+        handleFileSelect();
+      }
+    });
+
+    function handleFileSelect() {
+      const file = fileInput.files[0];
+      if (file) {
+        document.getElementById('youtubeUrl').value = '';
+        const size = formatFileSize(file.size);
+        document.getElementById('fileInfo').textContent = `✅ ${file.name} (${size})`;
+        updateEstimatedTime(file.size);
+      }
+    }
+
+    function handleSourceChange(source) {
+      if (source === 'url') {
+        fileInput.value = '';
+        document.getElementById('fileInfo').textContent = '';
+      }
+    }
+
+    function formatFileSize(bytes) {
+      if (bytes < 1024) return bytes + ' B';
+      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+      if (bytes < 1024 * 1024 * 1024) return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+      return (bytes / (1024 * 1024 * 1024)).toFixed(1) + ' GB';
+    }
+
+    function updateEstimatedTime(fileSize) {
+      const mb = fileSize / (1024 * 1024);
+      let estimate = '~5-10 min';
+      if (mb < 10) estimate = '~2-5 min';
+      else if (mb < 50) estimate = '~5-10 min';
+      else if (mb < 100) estimate = '~10-15 min';
+      else estimate = '~15+ min';
+      document.getElementById('estimatedTime').textContent = estimate;
+    }
+
+    // ==========================================
+    // TRANSCRIÇÃO
+    // ==========================================
+    async function transcribe() {
+      const url = document.getElementById('youtubeUrl').value.trim();
+      const file = fileInput.files[0];
+      const language = document.getElementById('language').value;
+      const statusBox = document.getElementById('statusBox');
+      const transcribeBtn = document.getElementById('transcribeBtn');
+      const progressContainer = document.getElementById('progressContainer');
+      const progressFill = document.getElementById('progressFill');
+      const transcriptionArea = document.getElementById('transcription');
+
+      if (!url && !file) {
+        setStatus('❌ Por favor, forneça uma URL do YouTube ou faça upload de um arquivo', 'error');
+        return;
+      }
+
+      // Validação de URL do YouTube
+      if (url && !isYouTubeUrl(url)) {
+        setStatus('❌ A URL fornecida não parece ser do YouTube', 'error');
+        return;
+      }
+
+      // Prepara o formulário
+      const formData = new FormData();
+      if (url) formData.append('url', url);
+      if (file) formData.append('file', file);
+      if (language !== 'auto') formData.append('language', language);
+
+      // UI: estado de processamento
+      transcribeBtn.disabled = true;
+      progressContainer.style.display = 'block';
+      transcriptionArea.value = '';
+      setStatus('⏳ Processando... Isso pode levar alguns minutos', 'processing');
+
+      
+      simulateProgress(progressFill);
+
+      try {
+        const response = await fetch('/transcribe', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || 'Erro desconhecido no servidor');
+        }
+
+        // Sucesso!
+        progressFill.style.width = '100%';
+        setStatus('✅ Transcrição concluída com sucesso!', 'success');
+        transcriptionArea.value = data.transcription || '[Nenhum texto detectado]';
+
+        // Armazena link de download
+        if (data.download) {
+          window.lastDownloadLink = data.download;
+        }
+
+      } catch (error) {
+        setStatus(`❌ Erro: ${error.message}`, 'error');
+        console.error('Erro na transcrição:', error);
+      } finally {
+        transcribeBtn.disabled = false;
+        setTimeout(() => {
+          progressContainer.style.display = 'none';
+          progressFill.style.width = '0%';
+        }, 1000);
+      }
+    }
+
+    function isYouTubeUrl(url) {
+      return /(?:youtube\.com|youtu\.be)/.test(url);
+    }
+
+    function setStatus(message, type = 'info') {
+      const statusBox = document.getElementById('statusBox');
+      statusBox.innerHTML = message;
+      statusBox.className = 'status-box';
+      
+      if (type === 'processing') {
+        statusBox.classList.add('processing');
+        statusBox.innerHTML = '<div class="spinner"></div>' + message;
+      } else if (type === 'success') {
+        statusBox.classList.add('success');
+      } else if (type === 'error') {
+        statusBox.classList.add('error');
+      }
+    }
+
+    function simulateProgress(element) {
+      let progress = 0;
+      const interval = setInterval(() => {
+        progress += Math.random() * 5;
+        if (progress > 90) progress = 90;
+        element.style.width = progress + '%';
+      }, 500);
+
+      // Para quando a requisição terminar
+      setTimeout(() => clearInterval(interval), 60000);
+    }
+
+    // ==========================================
+    // COPIAR E DOWNLOAD
+    // ==========================================
+    async function copyTranscription() {
+      const text = document.getElementById('transcription').value;
+      if (!text || text.includes('Aguardando')) {
+        alert('❌ Nenhuma transcrição disponível para copiar');
+        return;
+      }
+
+      try {
+        await navigator.clipboard.writeText(text);
+        const btn = document.getElementById('copyBtn');
+        const original = btn.textContent;
+        btn.textContent = '✅ Copiado!';
+        setTimeout(() => btn.textContent = original, 2000);
+      } catch (err) {
+        alert('❌ Falha ao copiar. Tente selecionar e copiar manualmente.');
+      }
+    }
+
+    function downloadTranscription() {
+      const text = document.getElementById('transcription').value;
+      
+      if (!text || text.includes('Aguardando')) {
+        alert('❌ Nenhuma transcrição disponível para download');
+        return;
+      }
+
+      
+      if (window.lastDownloadLink) {
+        window.location.href = window.lastDownloadLink;
+        return;
+      }
+
+      
+      const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
+      
+      a.href = url;
+      a.download = `transcricao_${timestamp}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      
+      URL.revokeObjectURL(url);
+      a.remove();
+
+      const btn = document.getElementById('downloadBtn');
+      const original = btn.textContent;
+      btn.textContent = '✅ Baixado!';
+      setTimeout(() => btn.textContent = original, 2000);
+    }
+
+    function clearForm() {
+      document.getElementById('youtubeUrl').value = '';
+      fileInput.value = '';
+      document.getElementById('fileInfo').textContent = '';
+      document.getElementById('transcription').value = '';
+      setStatus('✅ Pronto para transcrever', 'info');
+      window.lastDownloadLink = null;
+    }
+
+    // ==========================================
+    // KEYBOARD SHORTCUTS
+    // ==========================================
+    document.addEventListener('keydown', (e) => {
+      // Ctrl/Cmd + Enter para transcrever
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        transcribe();
+      }
+      // Ctrl/Cmd + K para limpar
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        clearForm();
+      }
+    });
+  </script>
+</body>
+</html>

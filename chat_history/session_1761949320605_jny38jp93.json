@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique a linguagem de programaçao c++",
+    "timestamp": "2025-10-31T22:23:48.713165"
+  },
+  {
+    "role": "agent",
+    "content": "A linguagem de programação C++ é uma extensão do C, desenvolvida pela Microsoft e pela União Europeia. Ela foi projetada para ser mais segura e eficiente do que o C, com a adição de recursos como classes, estruturas de dados e operadores. Aqui estão alguns dos principais recursos da linguagem C++: * **Classes e objetos**: C++ permite a criação de classes e objetos que podem ter propriedades e métodos. * **Estruturas de dados**: C++ oferece várias estruturas de dados, como vetores, listas ligadas e pilhas, que podem ser usadas para armazenar e manipular dados. * **Operadores**: C++ permite a definição de operadores personalizados para classes e estruturas de dados. * **Templating**: C++ permite a criação de funções e classes que podem ser usadas com diferentes tipos de dados. * **Objetos gerenciados**: C++ oferece suporte a objetos gerenciados, que permitem a criação de objetos que são automaticamente liberados quando não são...(continuação)...",
+    "timestamp": "2025-10-31T22:31:17.435014"
+  }
+]

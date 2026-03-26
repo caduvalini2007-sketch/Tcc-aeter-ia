@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": "me explique java e me de um exemplo",
+    "timestamp": "2026-02-15T05:53:14.622151"
+  },
+  {
+    "role": "agent",
+    "content": "**O que é Java?**\n\nJava é uma linguagem de programação de propriedade da Oracle Corporation. Foi criada em 1991 por James Gosling e sua equipe, como parte do projeto \"Oak\". A linguagem é conhecida por ser amplamente usada em desenvolvimento de aplicativos para Android, web e desktop.\n\n**Características principais:**\n\n* Linguagem de programação orientada a objetos\n* Compilada para bytecode que pode ser executado em qualquer plataforma com Java Virtual Machine (JVM)\n* Conhecida por sua segurança e estabilidade\n\n**Exemplo simples:**\n\n```java\npublic class Saludo {\n public static void main(String",
+    "timestamp": "2026-02-15T05:53:34.003177",
+    "query_type": "complex_question"
+  }
+]

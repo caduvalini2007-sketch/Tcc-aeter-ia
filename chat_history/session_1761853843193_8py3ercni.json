@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique detalhadamente a linguagem de programaçao c#",
+    "timestamp": "2025-10-30T19:50:49.443504"
+  },
+  {
+    "role": "agent",
+    "content": "",
+    "timestamp": "2025-10-30T19:52:13.654390"
+  }
+]

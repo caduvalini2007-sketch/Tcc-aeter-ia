@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": "me explique java e me de um exemplo",
+    "timestamp": "2026-02-15T05:54:00.370423"
+  },
+  {
+    "role": "agent",
+    "content": "**Introdução**\n\nJava é uma linguagem de programação de alto nível, amplamente utilizada em desenvolvimento de software, sistemas operacionais, jogos, etc. Foi criado na década de 1990 por James Gosling e sua equipe no Sun Microsystems (agora conhecida como Oracle Corporation). A linguagem é conhecida por sua plataforma multi-plataforma, o que significa que pode ser executada em diferentes sistemas operacionais sem necessidade de adaptações especiais.\n\n**Desenvolvimento Completo**\n\nAqui estão os principais conceitos e características da linguagem Java:\n\n*   **Tipagem estática**: A variável precisa ser declarada com um tipo antes de ser utilizada.\n*   **Programação orientada a objetos (POO)**: Suporta a criação de classes, herança, polimorfismo, encapsulamento e abstração.\n*   **Multithreading**: Permite a execução de múltiplos threads dentro do mesmo processo.\n*   **Garbage Collection**: O sistema gerencia automaticamente a memória livre.\n\n**Exemplo**\n\n```java\npublic class Sala {\n    private String nome;\n    private int capacidade;\n\n    public Sala(String nome, int capacidade) {\n        this.nome = nome;\n        this.capacidade = capacidade;\n    }\n\n    public void mostrarInfo() {\n        System.out.println(\"Nome: \" + this.nome);\n        System.out.println(\"Capacidade: \" + this.capacidade);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Sala sala1 = new Sala(\"Sala 1\", 10);\n        Sala sala2 = new Sala(\"Sala 2\", 20);\n\n        sala1.mostrarInfo();\n        System.out.println();\n\n        sala2.mostrarInfo();\n    }\n}\n```\n\nNesse exemplo, criamos uma classe `Sala` que representa um quarto com nome e capacidade. A classe tem um método `mostrarInfo()` que imprime os dados do quarto. Na classe `Main`, criamos instâncias de `Sala` e chamamos o método para exibir as informações.\n\n**Conclusão**\n\nEm resumo, a linguagem Java é uma ferramenta poderosa para desenvolvimento de software, com características como programação orientada a objetos, multithreading e garbage collection. Com exemplos como o exemplo acima, você pode começar a explorar e aprender mais sobre essa linguagem.",
+    "timestamp": "2026-02-15T05:54:47.876213",
+    "search_performed": false
+  }
+]

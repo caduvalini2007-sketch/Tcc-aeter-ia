@@ -1,0 +1,183 @@
+# ==========================================
+# AETHER IA - DEPENDÊNCIAS
+# ==========================================
+
+# Core Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+werkzeug==3.0.1
+
+# Web & HTTP
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==5.1.0
+
+# ==========================================
+# CHATBOT
+# ==========================================
+
+# LangChain & Search
+langchain==0.1.0
+langchain-community==0.0.10
+duckduckgo-search==4.1.0
+
+# LLM - Transformers (escolha uma opção)
+transformers==4.36.0
+torch==2.1.0
+accelerate==0.25.0
+sentencepiece==0.1.99
+
+# LLM - Ollama (alternativa leve)
+# ollama==0.1.0
+
+# ==========================================
+# OCR (TRANSCRIÇÃO DE IMAGEM)
+# ==========================================
+
+# Tesseract OCR
+pytesseract==0.3.10
+
+# OpenCV & Processamento de Imagem
+opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80
+Pillow==10.1.0
+numpy==1.24.3
+
+# OCR Avançado (opcional - GPU recomendada)
+# easyocr==1.7.0
+
+# ==========================================
+# TRANSCRIÇÃO DE VÍDEO/ÁUDIO
+# ==========================================
+
+# Whisper AI
+openai-whisper==20231117
+
+# Download de Vídeo
+pytubefix==5.0.0
+yt-dlp==2023.12.30
+
+# Processamento de Vídeo/Áudio
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+
+# ==========================================
+# UTILITIES
+# ==========================================
+
+# Data & Time
+python-dateutil==2.8.2
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# CLI
+click==8.1.7
+
+# JSON & Data
+ujson==5.9.0
+
+# ==========================================
+# PRODUÇÃO
+# ==========================================
+
+# WSGI Server
+gunicorn==21.2.0
+
+# Monitoramento
+psutil==5.9.6
+
+# Logging
+colorlog==6.8.0
+
+# ==========================================
+# SEGURANÇA
+# ==========================================
+
+# Security
+safety==2.3.5
+cryptography==41.0.7
+
+# ==========================================
+# DESENVOLVIMENTO (OPCIONAL)
+# ==========================================
+
+# Testing
+# pytest==7.4.3
+# pytest-flask==1.3.0
+# pytest-cov==4.1.0
+
+# Linting
+# pylint==3.0.3
+# flake8==6.1.0
+# black==23.12.1
+
+# Type Checking
+# mypy==1.7.1
+
+# ==========================================
+# NOTAS DE INSTALAÇÃO
+# ==========================================
+
+# IMPORTANTE:
+# 
+# 1. FFmpeg deve ser instalado separadamente:
+#    - Windows: https://ffmpeg.org/download.html
+#    - Linux: sudo apt install ffmpeg
+#    - Mac: brew install ffmpeg
+#
+# 2. Tesseract OCR deve ser instalado separadamente:
+#    - Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#    - Linux: sudo apt install tesseract-ocr tesseract-ocr-por
+#    - Mac: brew install tesseract tesseract-lang
+#
+# 3. Para GPU (CUDA):
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# 4. Para EasyOCR (GPU recomendada):
+#    pip install easyocr
+#    # Requer CUDA 10.2+ e cuDNN
+#
+# 5. Modelo Whisper será baixado automaticamente na primeira execução
+#    Tamanhos: tiny (75MB), base (150MB), small (500MB), medium (1.5GB), large (3GB)
+
+# ==========================================
+# INSTALAÇÃO
+# ==========================================
+
+# Instalação básica (sem GPU):
+# pip install -r requirements.txt
+
+# Instalação completa (com GPU):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# pip install -r requirements.txt
+
+# Instalação mínima (apenas OCR e Web):
+# pip install Flask Flask-CORS pytesseract opencv-python Pillow requests beautifulsoup4
+
+# ==========================================
+# VERSÕES ALTERNATIVAS
+# ==========================================
+
+# Para Python 3.8:
+# numpy==1.23.5
+# scipy==1.10.1
+
+# Para Python 3.11+:
+# Todas as versões acima são compatíveis
+
+# ==========================================
+# TROUBLESHOOTING
+# ==========================================
+
+# Se houver conflito de dependências:
+# pip install --upgrade pip setuptools wheel
+# pip install -r requirements.txt --no-cache-dir
+
+# Para reinstalar tudo:
+# pip uninstall -r requirements.txt -y
+# pip install -r requirements.txt
+
+# Verificar vulnerabilidades:
+# pip install safety
+# safety check

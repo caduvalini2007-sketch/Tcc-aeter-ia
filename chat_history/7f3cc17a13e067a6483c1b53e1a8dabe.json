@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me de um exemplo encapsulamento em programaçao orientada a objeto",
+    "timestamp": "2025-11-17T10:45:29.893828"
+  },
+  {
+    "role": "agent",
+    "content": "Claro, vou explicar o conceito de encapsulamento em programação orientada a objeto. **O que é Encapsulamento?**\n\nO encapsulamento é uma técnica de programação orientada a objeto que envolve a ocultação dos detalhes internos de um objeto de uma classe e a exposição apenas dos dados necessários para o uso externo. Isso é feito para proteger a integridade dos dados e garantir a segurança do sistema. **Características do Encapsulamento:**\n\n*   Oculta os detalhes internos de um objeto de uma classe\n*   Exposição apenas dos dados necessários para o uso externo\n*   Protege a integridade dos dados\n*   Garante a segurança do sistema\n\n**Exemplos Práticos:**\n\n*   Um banco de dados pode encapsular os dados e as operações de armazenamento e recuperação, permitindo que os usuários acessem os dados de forma segura. *   Um sistema de gerenciamento de estoque pode encapsular as informações de estoque e as operações de adição e remoção de produtos, permitindo que os usuários gerenciem o estoque de forma eficiente. **Exemplo de Código:**\n\n```c\npublic class Conta {\n    private double saldo;\n\n    public Conta(double saldo) {\n        this.saldo = saldo;\n    }\n\n    public void depositar(double valor) {\n        this.saldo += valor;\n    }\n\n    public void sacar(double valor) {\n        if (this.saldo >= valor) {\n            this.saldo -= valor;\n        } else {\n            System.out.println(\"Saldo insuficiente\");\n        }\n    }\n\n    public double getSaldo() {\n        return this.saldo;\n    }\n}\n```\n\nNesse exemplo, a classe `Conta` encapsula o valor do saldo e as operações de deposito e saque. A classe expõe apenas o método `getSaldo()` para que os usuários possam acessar o valor do saldo. A classe também protege a integridade do saldo, garantindo que as operações de deposito e saque sejam realizadas de forma segura.**Conclusão:**\n\nO encapsulamento é uma técnica importante em programação orientada a objeto que ajuda a proteger a integridade dos dados e garantir a segurança do sistema. Ao encapsular os detalhes internos de um objeto de uma classe, é possível controlar o acesso a esses dados e garantir que eles sejam usados de forma correta. Em resumo, o encapsulamento é uma técnica que ajuda a criar sistemas mais seguros e eficientes.",
+    "timestamp": "2025-11-17T10:53:06.154701"
+  }
+]

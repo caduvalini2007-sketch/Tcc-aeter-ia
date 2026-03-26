@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "me explique a linguagem de programaçao java",
+    "timestamp": "2025-11-26T00:49:43.671366"
+  },
+  {
+    "role": "agent",
+    "content": "**Introdução**\nA Java é uma linguagem de programação de alto nível, amplamente usada em desenvolvimento de software. Ela é conhecida por sua capacidade de executar código em múltiplos ambientes e plataformas, tornando-a uma escolha popular para desenvolvedores.\n**Desenvolvimento Completo**\nA Java foi criada pela Sun Microsystems (agora parte da Oracle Corporation) em 1991. Ela foi projetada para ser uma linguagem de programação orientada a objetos (OOP) que pudesse ser executada em qualquer sistema operacional, desde que tivesse um interpretador Java instalado.\n**Características Principais**\n\n*   **Orientada a Objetos (OOP)**: A Java é uma linguagem OOP, o que significa que os programas são compostos por objetos que têm propriedades e métodos.\n*   **Multiphasada**: A Java é uma linguagem multiphasada, o que significa que ela pode ser executada em diferentes plataformas, desde que tiver um interpretador Java instalado.\n*   **Segurança**: A Java é uma linguagem segura, pois ela usa uma tecnologia chamada \"sandbox\" para executar o código, evitando que o programa possa danificar o sistema operacional.\n**Exemplo Prático**\n\n```java\npublic class MeuPrimeiroPrograma {\n    public static void main(String[] args) {\n        System.out.println(\"Olá, Mundo!\");\n    }\n}\n```\n\nEste é um exemplo simples de um programa Java que imprime \"Olá, Mundo!\" na tela.\n**Conclusão**\nA Java é uma linguagem de programação poderosa e amplamente usada em desenvolvimento de software. Sua capacidade de executar código em múltiplos ambientes e plataformas a torna uma escolha popular para desenvolvedores. Com suas características principais, como orientação a objetos, multiplicidade e segurança, a Java é uma linguagem que vale a pena conhecer.",
+    "timestamp": "2025-11-26T00:54:27.514253",
+    "search_performed": true,
+    "disambiguation_used": false
+  }
+]

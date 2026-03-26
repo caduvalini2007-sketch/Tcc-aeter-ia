@@ -1,0 +1,28 @@
+2025-11-26 00:51:29,705 - __main__ - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:51:30,390 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:30,390 - __main__ - INFO - AETHER IA - SISTEMA DE TRANSCRIÇÃO
+2025-11-26 00:51:30,390 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:30,390 - __main__ - INFO - Modelo Whisper: base
+2025-11-26 00:51:30,391 - __main__ - INFO - Tamanho máximo de arquivo: 500MB
+2025-11-26 00:51:30,391 - __main__ - INFO - Duração máxima: 120 minutos
+2025-11-26 00:51:30,391 - __main__ - INFO - Formatos de áudio: .aac, .flac, .m4a, .mp3, .ogg, .opus, .wav, .wma
+2025-11-26 00:51:30,391 - __main__ - INFO - Formatos de vídeo: .3gp, .avi, .flv, .m4v, .mkv, .mov, .mp4, .mts, .webm, .wmv
+2025-11-26 00:51:30,391 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:31,263 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 00:51:31,264 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 00:51:31,265 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 00:51:34,445 - __main__ - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:51:35,119 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:35,119 - __main__ - INFO - AETHER IA - SISTEMA DE TRANSCRIÇÃO
+2025-11-26 00:51:35,119 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:35,119 - __main__ - INFO - Modelo Whisper: base
+2025-11-26 00:51:35,120 - __main__ - INFO - Tamanho máximo de arquivo: 500MB
+2025-11-26 00:51:35,120 - __main__ - INFO - Duração máxima: 120 minutos
+2025-11-26 00:51:35,120 - __main__ - INFO - Formatos de áudio: .aac, .flac, .m4a, .mp3, .ogg, .opus, .wav, .wma
+2025-11-26 00:51:35,120 - __main__ - INFO - Formatos de vídeo: .3gp, .avi, .flv, .m4v, .mkv, .mov, .mp4, .mts, .webm, .wmv
+2025-11-26 00:51:35,120 - __main__ - INFO - ======================================================================
+2025-11-26 00:51:35,132 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 00:51:35,138 - werkzeug - INFO -  * Debugger PIN: 134-943-255

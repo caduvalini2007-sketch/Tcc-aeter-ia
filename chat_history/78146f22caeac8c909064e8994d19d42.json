@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": "me explique oque é git",
+    "timestamp": "2026-03-26T19:34:20.832961"
+  },
+  {
+    "role": "agent",
+    "content": "**O que é Git?**\n\nGit é um sistema de controle de versão distribuído, amplamente utilizado em desenvolvimento de software. Ele permite que os desenvolvedores trabalhem em paralelo com o código-fonte, gerenciem as mudanças e mantam uma história de repositórios.\n\n**História de Git**\n\nGit foi criado em 2005 por Linus Torvalds, o mesmo autor do kernel Linux. No entanto, a versão inicial de Git era chamada \"BitKeeper\" e não era distribuída gratuitamente. Em 2005, Torvalds decidiu abandonar BitKeeper e começou a desenvolver um novo sistema de controle de versão, que mais tarde seria conhecido como Git.\n\n**Características-chave de Git**\n\n*   **Distribuição**: Git é distribuído gratuitamente e pode ser instalado em qualquer computador.\n*   **Repositórios locais**: Git permite criar repositórios locais no seu computador, onde você pode gerenciar as mudanças feitas nos arquivos de código-fonte.\n*   **Comits**: Git permite que os desenvolvedores façam commits (salvamentos) das suas mudanças no código-fonte, criando uma história de repositórios.\n*   **Branchs**: Git permite criar branchs (ramificações), onde os desenvolvedores podem trabalhar em paralelo com o código-fonte sem afetar a versão principal.\n\n**Exemplo: Gerenciamento de Mudanças**\n\nSuponha que você está trabalhando em um projeto de desenvolvimento de software e precisa fazer uma mudança no código-fonte. Você pode criar um novo commit, onde descreve a mudança feita e adiciona os arquivos afetados.\n\n*   Crie um novo repositório Git localmente: `git init`\n*   Adicione os arquivos que você deseja incluir na mudança: `git add .`\n*   Faça o commit: `git commit -m \"Mudança feita no código-fonte\"`\n*   Crie uma nova branch para trabalhar em paralelo com a versão principal: `git branch melhoria`\n*   Faça as mudanças desejadas na nova branch\n*   Faça um novo commit e adicione o nome da branch (melhoria) no commit\n\n**Conclusão**\n\nGit é uma ferramenta poderosa para gerenciar as mudanças no código-fonte de um projeto de desenvolvimento de software. Com suas características-chave, como repositórios locais, commits e branches, Git permite que os desenvolvedores trabalhem em paralelo com o código-fonte sem afetar a versão principal.",
+    "timestamp": "2026-03-26T19:35:03.317821",
+    "search_performed": false
+  }
+]

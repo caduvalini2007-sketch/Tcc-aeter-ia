@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "me explique oque é html e me de um exemplo",
+    "timestamp": "2025-11-30T23:18:16.992267"
+  },
+  {
+    "role": "agent",
+    "content": "**O que é HTML?\n**\n\nO HTML é composto por uma série de elementos utilizados para fazer com que o conteúdo apareça ou se comporte de determinada maneira. Por exemplo, as tags podem colocar links em palavras ou em imagens, colocar palavras em itálico, aumentar ou diminuir uma fonte, etc.\n**Exemplo de uso do HTML:**\n\n```html\n<! DOCTYPE html>\n<html>\n<head>\n\t<title>Meu Primeiro Site</title>\n</head>\n<body>\n\t<h1>Bem-vindo ao meu primeiro site!</h1>\n\t<p>Este é um parágrafo de texto.</p>\n\t<a href=\"https://www.google.com\">Clique aqui para ir ao Google</a>\n</body>\n</html>\n```\n\nNesse exemplo, podemos ver como o HTML é usado para criar uma página web simples. A tag `<h1>` é usada para criar um título, a tag `<p>` é usada para criar um parágrafo de texto e a tag `<a>` é usada para criar um link para a página do Google.\n**Conclusão:**\n\nO HTML é uma linguagem de marcação utilizada para criar e estruturar conteúdo para a web. É composto por uma série de elementos que podem ser usados para criar links, títulos, parágrafos e muito mais. Com o HTML, você pode criar sites e páginas web simples, e até mesmo mais complexas com o uso de outras linguagens de marcação como CSS e JavaScript.",
+    "timestamp": "2025-11-30T23:22:24.407443",
+    "search_performed": true,
+    "disambiguation_used": false
+  }
+]

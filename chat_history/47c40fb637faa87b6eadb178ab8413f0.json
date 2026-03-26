@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique  a linguagem de programaçao c++",
+    "timestamp": "2025-11-19T16:25:03.747000"
+  },
+  {
+    "role": "agent",
+    "content": "C++ é uma linguagem de programação de alto nível, estático e compilada, desenvolvida pela Microsoft em parceria com a AT&T. Ela foi criada como uma extensão da linguagem C, mas com uma maior capacidade de gestão de memória e suporte a objetos.\n\n### Características Principais\n\n*   **Estático**: A declaração de variáveis e funções é feita à compile, o que significa que o compilador verifica a compatibilidade e a consistência dos tipos de dados antes de executar o programa.\n*   **Compilada**: O código C++ é compilado para um código máquina executável antes de ser executado, o que significa que o código é traduzido para um formato que pode ser executado diretamente pelo computador.\n*   **Objetos**: C++ suporta a programação orientada a objetos (POO), que permite a criação de objetos que possuem propriedades e métodos.\n*   **Template**: C++ permite a criação de template, que é uma forma de programação que permite a criação de funções e classes que podem ser adaptadas para diferentes tipos de dados.\n\n### Aplicações\n\nC++ é uma linguagem de programação muito versátil e é amplamente utilizada em diversas áreas, incluindo:\n\n*   **Desenvolvimento de sistemas operacionais**: C++ é amplamente utilizado no desenvolvimento de sistemas operacionais, incluindo o Windows.\n*   **Jogos**: C++ é uma das linguagens de programação mais utilizadas no desenvolvimento de jogos, devido à sua velocidade e eficiência.\n*   **Aplicações financeiras**: C++ é amplamente utilizado em aplicações financeiras, incluindo sistemas de trading e análise de mercado.\n*   **Aplicações científicas**: C++ é amplamente utilizado em aplicações científicas, incluindo simulações de física e análise de dados.\n\n### Exemplo Prático\n\n```cpp\n#include <iostream>\n\nclass Pessoa {\npublic:\n    std::string nome;\n    int idade;\n\n    Pessoa(std::string nome, int idade) : nome(nome), idade(idade) {}\n\n    void imprimeInformacoes() {\n        std::cout << \"Nome: \" << nome << std::endl;\n        std::cout << \"Idade: \" << idade",
+    "timestamp": "2025-11-19T16:28:47.657700"
+  }
+]

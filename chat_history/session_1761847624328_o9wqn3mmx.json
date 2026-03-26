@@ -1,0 +1,12 @@
+[
+    {
+        "role": "user",
+        "content": "oque é programaçao orientada a objeto me explique detalhadamente",
+        "timestamp": "2025-10-30T18:07:18.325569"
+    },
+    {
+        "role": "agent",
+        "content": "Programação orientada a objetos é um conceito fundamental em programação, que visa separar a lógica de negócios da lógica de programação e torná-la mais manutenível e escalável.\n\nDetalhando, programação orientada a objetos é uma abordagem que divide a programação em duas partes principais:\n\n1.  **Modelagem de Entidades**: Nesta parte, você define as entidades (ou objetos) que representam as entidades do seu sistema. Essas entidades são as unidades básicas que você deseja manipular e interagir com.\n2.  **Modelagem de Relações**: Nesta parte, você define as relações entre as entidades. Essas relações são as conexões entre as entidades e definem como elas se relacionam entre si.\n\nExemplo de Programação Orientada a Objetos em Python:\n```python\n# Modelagem de Entidades\nclass Pessoa:\n    def __init__(self, nome, idade):\n        self.nome = nome\n        self.idade = idade\n\n    def mostrarInformacao(self):\n        print(f\"Nome: {self.nome}, Idade: {self.idade}\")\n\n# Modelagem de Relações\nclass Pessoa:\n    def __init__(self, nome, idade):\n        self.nome = nome\n        self.idade = idade\n\n    def mostrarInformacao(self):\n        print(f\"Nome: {self.nome}, Idade: {self.idade}\")\n\npessoa = Pessoa(\"João\", 30)\npessoa.mostrarInformacao()\n```\n\nExemplo de Programação Orientada a Objetos em C#:\n```csharp\n// Modelagem de Entidades\npublic class Pessoa\n{\n    public string Nome { get; set; }\n    public int Idade { get; set; }\n\n    public Pessoa(string nome, int idade)\n    {\n        Nome = nome;\n        Id",
+        "timestamp": "2025-10-30T18:08:28.334021"
+    }
+]

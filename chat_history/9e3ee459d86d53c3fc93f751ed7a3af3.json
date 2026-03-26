@@ -1,0 +1,13 @@
+[
+  {
+    "role": "user",
+    "content": "me explique c++",
+    "timestamp": "2026-02-15T22:44:46.715651"
+  },
+  {
+    "role": "agent",
+    "content": "**Introdução**\n\nC++ é um linguagem de programação de alta performance e amplamente utilizada em desenvolvimento de software. Criada pela Microsoft, junto com Bjarne Stroustrup, em 1985, a linguagem tem evoluído ao longo dos anos para se tornar uma das mais populares e eficazes.\n\n**Desenvolvimento Completo**\n\nC++ é uma linguagem de programação multiparadigma, o que significa que ela suporta várias abordagens de desenvolvimento. Ela é amplamente utilizada em:\n\n*   Desenvolvimento de sistemas operacionais\n*   Jogos\n*   Aplicativos financeiros\n*   Desenvolvimento web\n\nA linguagem é conhecida por sua flexibilidade e eficiência, permitindo que os programadores criem aplicações complexas com alta velocidade.\n\n**Características Principais**\n\nAlgumas das características mais importantes de C++ incluem:\n\n*   **Tipagem estática**: A linguagem é tipada, o que significa que a compilação do código acontece antes da execução.\n*   **Compatibilidade com hardware**: C++ é projetada para ser compatível com vários sistemas operacionais e arquiteturas de processadores.\n*   **Flexibilidade**: A linguagem suporta várias abordagens de desenvolvimento, incluindo programação orientada a objetos, programação funcional e programação estruturada.\n\n**Exemplo**\n\nUm exemplo simples de um programa em C++ é o seguinte:\n```cpp\n#include <iostream>\n\nint main() {\n    int x = 5;\n    std::cout << \"O valor de x é: \" << x << std::endl;\n    return 0;\n}\n```\nEste programa imprime a string \"O valor de x é: 5\" na tela.\n\n**Conclusão**\n\nC++ é uma linguagem de programação poderosa e flexível, amplamente utilizada em desenvolvimento de software. Com sua combinação de tipagem estática, compatibilidade com hardware e flexibilidade, C++ é uma escolha popular entre os programadores profissionais.",
+    "timestamp": "2026-02-15T22:45:33.850140",
+    "search_performed": false
+  }
+]

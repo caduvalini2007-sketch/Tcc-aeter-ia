@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aether IA — Plataforma de Inteligência Artificial</title>
+  <style>
+    /* TEMA ESCURO (padrão) */
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1419;
+      --sidebar:#0b1116;
+      --muted:#9aa6b2;
+      --text:#e6eef6;
+      --accent:#58a6ff;
+      --accent-2:#2bd7ff;
+      --border: rgba(255,255,255,0.04);
+      --glass: rgba(255,255,255,0.02);
+      --shadow: 0 12px 36px rgba(2,6,23,0.7);
+      --radius: 12px;
+      --glass-2: rgba(255,255,255,0.01);
+      --input-bg: rgba(255,255,255,0.03);
+    }
+
+    /* TEMA CLARO */
+    :root[data-theme="light"]{
+      --bg:#f5f7fa;
+      --panel:#ffffff;
+      --sidebar:#fafbfc;
+      --muted:#6b7280;
+      --text:#1f2937;
+      --accent:#0969da;
+      --accent-2:#0969da;
+      --border: rgba(0,0,0,0.08);
+      --glass: rgba(0,0,0,0.02);
+      --shadow: 0 4px 16px rgba(0,0,0,0.08);
+      --glass-2: rgba(0,0,0,0.01);
+      --input-bg: #f9fafb;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{
+      height:100%;
+      font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      transition:background 0.3s ease, color 0.3s ease;
+    }
+
+    .app{
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      background:var(--bg);
+    }
+
+    /* HEADER */
+    .header{
+      padding:20px 40px;
+      background:var(--panel);
+      border-bottom:1px solid var(--border);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:var(--shadow);
+      position:sticky;
+      top:0;
+      z-index:100;
+      transition:background 0.3s ease;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+
+    .logo{
+      width:56px;
+      height:56px;
+      border-radius:14px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:800;
+      font-size:24px;
+      box-shadow:0 8px 30px rgba(88,166,255,0.15);
+      animation:pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse{
+      0%, 100%{transform:scale(1)}
+      50%{transform:scale(1.05)}
+    }
+
+    .brand-info{
+      display:flex;
+      flex-direction:column;
+      gap:2px;
+    }
+
+    .brand-title{
+      font-size:24px;
+      font-weight:800;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-clip:text;
+    }
+
+    .brand-subtitle{
+      font-size:13px;
+      color:var(--muted);
+      font-weight:600;
+      letter-spacing:0.5px;
+    }
+
+    .theme-toggle{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px 16px;
+      border-radius:10px;
+      background:var(--glass);
+      border:1px solid var(--border);
+      cursor:pointer;
+      transition:all 0.3s ease;
+    }
+
+    .theme-toggle:hover{
+      background:var(--accent);
+      color:#fff;
+      transform:translateY(-2px);
+      box-shadow:0 8px 20px rgba(88,166,255,0.2);
+    }
+
+    .switch{
+      width:50px;
+      height:26px;
+      border-radius:13px;
+      background:var(--input-bg);
+      padding:3px;
+      position:relative;
+      cursor:pointer;
+      transition:background 0.3s ease;
+    }
+
+    .knob{
+      width:20px;
+      height:20px;
+      border-radius:50%;
+      background:var(--text);
+      position:absolute;
+      left:3px;
+      top:3px;
+      transition:transform 0.3s ease, background 0.3s ease;
+    }
+
+    .switch.on{
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+    }
+
+    .switch.on .knob{
+      transform:translateX(24px);
+      background:#fff;
+    }
+
+    /* HERO */
+    .hero{
+      padding:80px 40px;
+      text-align:center;
+      background:linear-gradient(180deg,var(--panel),var(--bg));
+      border-bottom:1px solid var(--border);
+    }
+
+    .hero-title{
+      font-size:56px;
+      font-weight:900;
+      margin-bottom:20px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-clip:text;
+      line-height:1.2;
+    }
+
+    .hero-description{
+      font-size:20px;
+      color:var(--muted);
+      max-width:700px;
+      margin:0 auto 40px;
+      line-height:1.6;
+    }
+
+    .hero-stats{
+      display:flex;
+      gap:40px;
+      justify-content:center;
+      margin-top:40px;
+    }
+
+    .stat{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:8px;
+    }
+
+    .stat-number{
+      font-size:36px;
+      font-weight:800;
+      color:var(--accent);
+    }
+
+    .stat-label{
+      font-size:14px;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+
+    /* FEATURES GRID */
+    .features{
+      padding:80px 40px;
+      max-width:1400px;
+      margin:0 auto;
+    }
+
+    .section-title{
+      font-size:40px;
+      font-weight:800;
+      text-align:center;
+      margin-bottom:20px;
+      color:var(--text);
+    }
+
+    .section-subtitle{
+      font-size:18px;
+      color:var(--muted);
+      text-align:center;
+      margin-bottom:60px;
+      max-width:600px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .feature-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(340px, 1fr));
+      gap:30px;
+      margin-bottom:40px;
+    }
+
+    .feature-card{
+      background:var(--panel);
+      border-radius:16px;
+      padding:40px;
+      border:1px solid var(--border);
+      box-shadow:var(--shadow);
+      transition:all 0.3s ease;
+      cursor:pointer;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .feature-card::before{
+      content:'';
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      height:4px;
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      transform:scaleX(0);
+      transition:transform 0.3s ease;
+    }
+
+    .feature-card:hover{
+      transform:translateY(-8px);
+      box-shadow:0 20px 50px rgba(88,166,255,0.15);
+      border-color:var(--accent);
+    }
+
+    .feature-card:hover::before{
+      transform:scaleX(1);
+    }
+
+    .feature-icon{
+      width:80px;
+      height:80px;
+      border-radius:16px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:40px;
+      margin-bottom:24px;
+      box-shadow:0 8px 24px rgba(88,166,255,0.15);
+    }
+
+    .feature-title{
+      font-size:24px;
+      font-weight:800;
+      margin-bottom:12px;
+      color:var(--text);
+    }
+
+    .feature-description{
+      font-size:15px;
+      color:var(--muted);
+      line-height:1.7;
+      margin-bottom:24px;
+    }
+
+    .feature-tags{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-bottom:20px;
+    }
+
+    .tag{
+      padding:6px 12px;
+      border-radius:6px;
+      background:var(--glass);
+      border:1px solid var(--border);
+      font-size:12px;
+      color:var(--accent);
+      font-weight:600;
+    }
+
+    .feature-btn{
+      width:100%;
+      padding:14px 24px;
+      border-radius:10px;
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      color:#fff;
+      border:none;
+      font-weight:700;
+      font-size:15px;
+      cursor:pointer;
+      transition:all 0.3s ease;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+    }
+
+    .feature-btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 12px 32px rgba(88,166,255,0.25);
+    }
+
+    /* FOOTER */
+    .footer{
+      padding:40px;
+      background:var(--panel);
+      border-top:1px solid var(--border);
+      text-align:center;
+      margin-top:auto;
+    }
+
+    .footer-content{
+      max-width:1200px;
+      margin:0 auto;
+    }
+
+    .footer-links{
+      display:flex;
+      gap:30px;
+      justify-content:center;
+      margin-bottom:20px;
+      flex-wrap:wrap;
+    }
+
+    .footer-link{
+      color:var(--muted);
+      text-decoration:none;
+      font-size:14px;
+      font-weight:600;
+      transition:color 0.2s ease;
+    }
+
+    .footer-link:hover{
+      color:var(--accent);
+    }
+
+    .footer-text{
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .footer-logo{
+      display:inline-block;
+      margin-bottom:16px;
+      font-size:32px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width:768px){
+      .header{
+        padding:16px 20px;
+      }
+
+      .hero{
+        padding:60px 20px;
+      }
+
+      .hero-title{
+        font-size:36px;
+      }
+
+      .hero-description{
+        font-size:16px;
+      }
+
+      .hero-stats{
+        flex-direction:column;
+        gap:20px;
+      }
+
+      .features{
+        padding:60px 20px;
+      }
+
+      .section-title{
+        font-size:32px;
+      }
+
+      .feature-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+      }
+
+      .feature-card{
+        padding:30px;
+      }
+
+      .brand-title{
+        font-size:20px;
+      }
+
+      .brand-subtitle{
+        font-size:11px;
+      }
+
+      .theme-toggle{
+        padding:8px 12px;
+      }
+    }
+
+    /* ANIMAÇÕES */
+    @keyframes fadeInUp{
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    .feature-card{
+      animation:fadeInUp 0.6s ease backwards;
+    }
+
+    .feature-card:nth-child(1){animation-delay:0.1s}
+    .feature-card:nth-child(2){animation-delay:0.2s}
+    .feature-card:nth-child(3){animation-delay:0.3s}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="brand">
+        <div class="logo">AE</div>
+        <div class="brand-info">
+          <div class="brand-title">Aether IA</div>
+          <div class="brand-subtitle">PLATAFORMA DE INTELIGÊNCIA ARTIFICIAL</div>
+        </div>
+      </div>
+
+      <div class="theme-toggle" id="themeToggle">
+        <span style="font-size:14px;font-weight:600">🌓 Tema</span>
+        <div class="switch" id="themeSwitch">
+          <div class="knob"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1 class="hero-title">Inteligência Artificial<br>ao Seu Alcance</h1>
+      <p class="hero-description">
+        Plataforma completa de IA com chatbot inteligente, transcrição de imagens (OCR) 
+        e conversão de vídeos/áudios em texto. Tudo em um só lugar.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Ferramentas IA</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Acesso</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Local & Seguro</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <h2 class="section-title">Escolha Sua Ferramenta</h2>
+      <p class="section-subtitle">
+        Três poderosas ferramentas de IA integradas para facilitar seu trabalho e aumentar sua produtividade.
+      </p>
+
+      <div class="feature-grid">
+        <!-- CHATBOT -->
+        <div class="feature-card" onclick="window.location.href='/chatbot'">
+          <div class="feature-icon">🤖</div>
+          <h3 class="feature-title">Chatbot Inteligente</h3>
+          <p class="feature-description">
+            Converse com uma IA avançada que compreende contexto, busca informações na web 
+            e oferece respostas completas e precisas. Suporta streaming em tempo real e histórico de conversas.
+          </p>
+          <div class="feature-tags">
+            <span class="tag">GPT-like</span>
+            <span class="tag">Web Search</span>
+            <span class="tag">Contexto</span>
+            <span class="tag">Streaming</span>
+          </div>
+          <button class="feature-btn">
+            <span>Abrir Chatbot</span>
+            <span>→</span>
+          </button>
+        </div>
+
+        <!-- OCR -->
+        <div class="feature-card" onclick="window.location.href='/ocr'">
+          <div class="feature-icon">📷</div>
+          <h3 class="feature-title">Transcrição de Imagem</h3>
+          <p class="feature-description">
+            Extraia texto de imagens com precisão profissional usando Tesseract OCR e OpenCV. 
+            Suporta múltiplos idiomas e 9 algoritmos de pré-processamento para máxima qualidade.
+          </p>
+          <div class="feature-tags">
+            <span class="tag">Tesseract</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Multi-idioma</span>
+            <span class="tag">Alta Precisão</span>
+          </div>
+          <button class="feature-btn">
+            <span>Abrir OCR</span>
+            <span>→</span>
+          </button>
+        </div>
+
+        <!-- VIDEO TRANSCRIPTION -->
+        <div class="feature-card" onclick="window.location.href='/transcribe-video'">
+          <div class="feature-icon">🎬</div>
+          <h3 class="feature-title">Transcrição de Vídeo</h3>
+          <p class="feature-description">
+            Converta vídeos e áudios em texto usando Whisper AI. Suporta YouTube e uploads locais, 
+            com detecção automática de idioma e transcrição de alta qualidade.
+          </p>
+          <div class="feature-tags">
+            <span class="tag">Whisper AI</span>
+            <span class="tag">YouTube</span>
+            <span class="tag">Upload Local</span>
+            <span class="tag">8 Idiomas</span>
+          </div>
+          <button class="feature-btn">
+            <span>Abrir Transcritor</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- INFO ADICIONAL -->
+      <div style="margin-top:60px;text-align:center;">
+        <h3 style="font-size:28px;font-weight:800;margin-bottom:16px;color:var(--text)">
+          ✨ Características do Sistema
+        </h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:20px;max-width:1000px;margin:30px auto 0;">
+          <div style="padding:24px;background:var(--panel);border-radius:12px;border:1px solid var(--border);">
+            <div style="font-size:32px;margin-bottom:12px;">🔒</div>
+            <div style="font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text);">100% Local</div>
+            <div style="font-size:14px;color:var(--muted);">Processamento local no servidor. Seus dados não saem da máquina.</div>
+          </div>
+
+          <div style="padding:24px;background:var(--panel);border-radius:12px;border:1px solid var(--border);">
+            <div style="font-size:32px;margin-bottom:12px;">⚡</div>
+            <div style="font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text);">Alta Performance</div>
+            <div style="font-size:14px;color:var(--muted);">Otimizado para velocidade com suporte a GPU e processamento paralelo.</div>
+          </div>
+
+          <div style="padding:24px;background:var(--panel);border-radius:12px;border:1px solid var(--border);">
+            <div style="font-size:32px;margin-bottom:12px;">🎨</div>
+            <div style="font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text);">Interface Moderna</div>
+            <div style="font-size:14px;color:var(--muted);">Design responsivo e elegante com tema claro/escuro.</div>
+          </div>
+
+          <div style="padding:24px;background:var(--panel);border-radius:12px;border:1px solid var(--border);">
+            <div style="font-size:32px;margin-bottom:12px;">🔧</div>
+            <div style="font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text);">Open Source</div>
+            <div style="font-size:14px;color:var(--muted);">Código aberto e personalizável para suas necessidades.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">AE</div>
+        <div class="footer-links">
+          <a href="/chatbot" class="footer-link">Chatbot</a>
+          <a href="/ocr" class="footer-link">OCR</a>
+          <a href="/transcribe-video" class="footer-link">Transcrição</a>
+          <a href="/api/status" class="footer-link">API Status</a>
+          <a href="https://github.com" class="footer-link" target="_blank">GitHub</a>
+        </div>
+        <p class="footer-text">
+          © 2024 Aether IA. Plataforma de Inteligência Artificial Open Source.<br>
+          Desenvolvido  usando Flask, Whisper AI, Tesseract OCR e OpenCV.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // ==========================================
+    // SISTEMA DE TEMA
+    // ==========================================
+    let currentTheme = 'dark';
+    const themeSwitch = document.getElementById('themeSwitch');
+    const htmlRoot = document.documentElement;
+
+    function applyTheme(theme) {
+      currentTheme = theme;
+      if (theme === 'light') {
+        htmlRoot.setAttribute('data-theme', 'light');
+        themeSwitch.classList.add('on');
+      } else {
+        htmlRoot.removeAttribute('data-theme');
+        themeSwitch.classList.remove('on');
+      }
+    }
+
+    // Inicializa com tema escuro
+    applyTheme('dark');
+
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(newTheme);
+    });
+
+    // ==========================================
+    // NAVEGAÇÃO COM TECLADO
+    // ==========================================
+    document.addEventListener('keydown', (e) => {
+      // 1 para Chatbot
+      if (e.key === '1' && !e.ctrlKey && !e.metaKey) {
+        window.location.href = '/chatbot';
+      }
+      // 2 para OCR
+      if (e.key === '2' && !e.ctrlKey && !e.metaKey) {
+        window.location.href = '/ocr';
+      }
+      // 3 para Transcrição
+      if (e.key === '3' && !e.ctrlKey && !e.metaKey) {
+        window.location.href = '/transcribe-video';
+      }
+    });
+
+    // ==========================================
+    // ANIMAÇÕES DE HOVER NOS CARDS
+    // ==========================================
+    const cards = document.querySelectorAll('.feature-card');
+    
+    cards.forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-8px) scale(1.02)';
+      });
+      
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0) scale(1)';
+      });
+    });
+
+    // ==========================================
+    // INFORMAÇÕES DO SISTEMA (OPCIONAL)
+    // ==========================================
+    async function checkSystemStatus() {
+      try {
+        const response = await fetch('/api/status');
+        if (response.ok) {
+          const data = await response.json();
+          console.log('Sistema online:', data);
+          
+          // Você pode adicionar um indicador visual de status aqui
+          const statusIndicator = document.createElement('div');
+          statusIndicator.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 16px;
+            background: #3fb950;
+            color: white;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(63, 185, 80, 0.3);
+            z-index: 1000;
+          `;
+          statusIndicator.textContent = '✓ Sistema Online';
+          document.body.appendChild(statusIndicator);
+          
+          // Remove após 3 segundos
+          setTimeout(() => statusIndicator.remove(), 3000);
+        }
+      } catch (error) {
+        console.log('Status check:', error);
+      }
+    }
+
+    // Verifica status ao carregar
+    window.addEventListener('load', checkSystemStatus);
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me fale uma receita de bolo de cenoura com cobertura de chocollate",
+    "timestamp": "2025-11-17T11:07:33.089556"
+  },
+  {
+    "role": "agent",
+    "content": "1. **Receita de Bolo de Cenoura com Cobertura de Chocolate:**\n    *   Ingredientes: \n        *   2 cenouras médias, raladas\n        *   1 xícara de açúcar\n        *   1/2 xícara de farinha de trigo\n        *   1/2 xícara de manteiga derretida\n        *   2 ovos\n        *   1 colher de sopa de fermento em pó\n        *   1 pitada de sal\n        *   1 xícara de leite\n        *   Cobertura de chocolate: 1 xícara de chocolate em pó, 1/2 xícara de manteiga derretida\n    *   Modo de preparo:\n        1. Pré-aqueça o forno a 180°C. 2. Misture as cenouras raladas, açúcar, farinha de trigo, fermento em pó e sal em uma tigela. 3. Adicione a manteiga derretida, ovos e leite, e misture bem. 4. Despeje a mistura em uma forma de bolo untada e asse por 30-40 minutos. 5. Deixe esfriar e cubra com cobertura de chocolate. 6. Misture o chocolate em pó e manteiga derretida em uma tigela e espalhe sobre o bolo. 7. Deixe esfriar e sirva. **Exemplo de Código:**\n\nAqui está um exemplo simples de como você pode implementar a receita de bolo de cenoura com cobertura de chocolate em um aplicativo de receitas:\n\n```python\ndef bolo_cenoura():\n    # Ingredientes\n    cenouras = 2\n    açúcar = 1\n    farinha_trigo = 0.5\n    manteiga_derretida = 0.5\n    ovos = 2\n    fermento_pó = 1\n    sal = 1\n    leite = 1\n\n    # Modo de preparo\n    print(\"Pré-aqueça o forno a180°C.\")\n    print(\"Misture as cenouras raladas, açúcar, farinha de trigo, fermento em pó e sal em uma tigela.\")\n    print(\"Adicione a manteiga derretida, ovos e leite, e misture bem.\")\n    print(\"Despeje a mistura em uma forma de bolo untada e asse por 30-40 minutos.\")\n    print(\"Deixe esfriar e cubra com cobertura de chocolate.\")\n    print(\"Misture o chocolate em pó e manteiga derretida em uma tigela e espalhe sobre o bolo.\")\n    print(\"Deixe esfriar e sirva.\")\n\n# Chamar a função\nbolo_cenoura()\n```\n\nEssa é uma receita simples e deliciosa que você pode fazer em casa. Lembre-se de que a prática leva à perfeição, então não tenha medo de experimentar e ajustar a receita de acordo com suas preferências.",
+    "timestamp": "2025-11-17T11:16:30.891660"
+  }
+]

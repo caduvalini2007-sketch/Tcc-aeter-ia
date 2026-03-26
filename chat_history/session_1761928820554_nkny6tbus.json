@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique a linguagem de programaçao c++",
+    "timestamp": "2025-10-31T16:40:31.848340"
+  },
+  {
+    "role": "agent",
+    "content": "A linguagem de programação C++ é uma extensão da linguagem de programação C, desenvolvida por Bjarne Stroustrup na década de 1980. Aqui estão alguns pontos importantes sobre C++:\n\n*   **Tipagem estática**: C++ é uma linguagem de tipagem estática, o que significa que o compilador verifica a tipagem dos variáveis e funções antes de executar o código. *   **Objetos e classes**: C++ suporta a programação orientada a objetos, com suporte a objetos e classes que podem ser usados para encapsular dados e comportamentos. *   **Ponteiro**: C++ usa ponteiros para manipular memória dinâmica, o que permite a criação de estruturas de dados complexas. *   **Template**: C++ tem suporte a templates, que permitem a criação de funções e classes que podem ser usadas com diferentes tipos de dados. *   **Compilação em tempo de execução**: C++ permite a compilação de código em tempo de execução, o que permite a criação de programas que podem ser executados sem a necessidade de compilação prévia. Essas são apenas algumas das características principais da linguagem de programação C++. Se você tiver alguma dúvida específica, sinta-se à vontade para perguntar.",
+    "timestamp": "2025-10-31T16:44:15.677711"
+  }
+]

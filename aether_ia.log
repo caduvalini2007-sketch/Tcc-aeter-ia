@@ -1,0 +1,1333 @@
+2025-11-26 00:55:14,078 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 00:55:14,079 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 00:55:14,079 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 00:55:14,079 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 00:55:14,079 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 00:55:14,079 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 00:55:14,936 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 00:55:17,616 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:56:39,901 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 00:56:39,902 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 00:56:39,902 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 00:56:39,902 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 00:56:39,902 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 00:56:39,903 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 00:56:40,733 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 00:56:43,289 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:57:00,230 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 00:57:00,230 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 00:57:00,230 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 00:57:00,231 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 00:57:00,231 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 00:57:00,231 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 00:57:01,029 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 00:57:03,566 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:57:04,176 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 00:57:04,176 - aether_ia - INFO - Modo debug: True
+2025-11-26 00:57:05,048 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 00:57:05,049 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 00:57:05,050 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 00:57:05,300 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 00:57:05,300 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 00:57:05,300 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 00:57:05,301 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 00:57:05,301 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 00:57:05,301 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 00:57:06,100 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 00:57:08,694 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 00:57:09,326 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 00:57:09,326 - aether_ia - INFO - Modo debug: True
+2025-11-26 00:57:09,338 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 00:57:09,343 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 00:57:16,856 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:16] "GET / HTTP/1.1" 200 -
+2025-11-26 00:57:17,075 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 00:57:29,769 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:29] "GET /chatbot HTTP/1.1" 200 -
+2025-11-26 00:57:30,088 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:30] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 00:57:32,050 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:32] "GET /api/history/8c5d37c2092d19441a0162a72a20e41f HTTP/1.1" 200 -
+2025-11-26 00:57:32,309 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:32] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 00:57:33,736 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:33] "GET /api/history/f9d4e8985bf4f13d253c7c268648d3ba HTTP/1.1" 200 -
+2025-11-26 00:57:34,066 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:34] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 00:57:35,072 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:35] "GET /api/history/8c5d37c2092d19441a0162a72a20e41f HTTP/1.1" 200 -
+2025-11-26 00:57:35,401 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:35] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 00:57:45,121 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:45] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 00:57:48,671 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:48] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 00:57:53,310 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:57:53] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 00:58:02,027 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:58:02] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 00:58:04,779 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:58:04] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 00:58:12,190 - video_transcription_backend - INFO - Arquivo recebido: Video_TCC_CarlosEduardo_3mt.mp4 (488479.3 KB)
+2025-11-26 00:58:12,190 - video_transcription_backend - INFO - Extraindo áudio de: 20251126_005811_cfa954d4453e_Video_TCC_CarlosEduardo_3mt.mp4
+2025-11-26 00:58:12,349 - video_transcription_backend - INFO - Duração do áudio: 456.27s (7.6min)
+2025-11-26 00:58:13,475 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 00:58:13,475 - video_transcription_backend - INFO - NOVA TRANSCRIÇÃO - Session: cfa954d4453e
+2025-11-26 00:58:13,475 - video_transcription_backend - INFO - Fonte: upload - Video_TCC_CarlosEduardo_3mt.mp4
+2025-11-26 00:58:13,476 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 00:58:13,476 - video_transcription_backend - INFO - Iniciando transcrição: audio_cfa954d4453e.wav
+2025-11-26 00:58:13,476 - video_transcription_backend - INFO - Idioma especificado: pt
+2025-11-26 00:58:54,486 - video_transcription_backend - INFO -   - Idioma detectado: pt
+2025-11-26 00:58:54,486 - video_transcription_backend - INFO -   - Palavras: 908
+2025-11-26 00:58:54,486 - video_transcription_backend - INFO -   - Caracteres: 5192
+2025-11-26 00:58:54,486 - video_transcription_backend - INFO -   - Segmentos: 76
+2025-11-26 00:58:54,556 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:58:54] "POST /transcribe HTTP/1.1" 200 -
+2025-11-26 00:59:01,479 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:59:01] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 00:59:08,896 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:59:08] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 00:59:17,907 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:59:17] "GET /chatbot HTTP/1.1" 200 -
+2025-11-26 00:59:17,933 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:59:17] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 00:59:33,081 - aether_ia - INFO - Buscando: me explique a linguagem de programaçao c#...
+2025-11-26 00:59:33,082 - aether_ia - INFO - Análise: {"original_query": "me explique a linguagem de programaçao c#", "normalized_query": "me explique a linguagem de programaçao c", "main_terms": ["me", "explique", "linguagem", "de", "programaçao"], "potential_confusions": [], "disambiguation_needed": false, "suggested_queries": []}
+2025-11-26 00:59:33,114 - aether_ia - INFO - Ferramentas de busca LangChain inicializadas
+2025-11-26 00:59:33,429 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20a%20linguagem%20de%20programa%C3%A7ao%20c%23 200
+2025-11-26 00:59:34,546 - primp - INFO - response: https://yandex.com/search/site/?text=me+explique+a+linguagem+de+programa%C3%A7ao+c%23&web=1&searchid=4789350 200
+2025-11-26 00:59:34,664 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20a%20linguagem%20de%20programa%C3%A7ao%20c%23 200
+2025-11-26 00:59:34,810 - primp - INFO - response: https://www.google.com/search?q=me+explique+a+linguagem+de+programa%C3%A7ao+c%23&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_uwn1jC2XMvMM0g3bjmUOGqA_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=pt-BR&lr=lang_pt&cr=countryBR&tbs=qdr%3Ay 200
+2025-11-26 00:59:35,810 - primp - INFO - response: https://www.mojeek.com/search?q=me+explique+a+linguagem+de+programa%C3%A7ao+c%23 200
+2025-11-26 00:59:36,896 - primp - INFO - response: https://search.brave.com/search?q=me+explique+a+linguagem+de+programa%C3%A7ao+c%23&source=web&tf=py 200
+2025-11-26 00:59:37,154 - primp - INFO - response: https://www.bing.com/search?q=me+explique+a+linguagem+de+programa%C3%A7ao+c%23&pq=me+explique+a+linguagem+de+programa%C3%A7ao+c%23&cc=pt&filters=ex1%3A%22ez5_20053_20418%22 200
+2025-11-26 00:59:37,195 - aether_ia - INFO - Busca realizada: me explique a linguagem de programaçao c#...
+2025-11-26 00:59:37,196 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 00:59:37] "GET /api/chat?message=me%20explique%20a%20linguagem%20de%20programaçao%20c%23 HTTP/1.1" 200 -
+2025-11-26 00:59:41,062 - aether_ia - INFO - Carregando transformers (CPU)
+2025-11-26 01:09:34,058 - aether_ia - INFO - Continuando geração (1/32)
+2025-11-26 01:26:46,378 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 01:26:46] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 02:06:35,645 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:06:35] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:06:42,119 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:06:42] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 02:10:20,999 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:10:21,000 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:10:21,000 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:10:21,000 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:10:21,000 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:10:21,000 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:10:22,064 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:10:25,348 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:10:26,025 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:10:26,025 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:10:26,895 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 02:10:26,895 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 02:10:26,897 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:10:27,123 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:10:27,123 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:10:27,123 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:10:27,124 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:10:27,124 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:10:27,124 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:10:27,909 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:10:30,455 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:10:31,111 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:10:31,111 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:10:31,122 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 02:10:31,128 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 02:10:31,141 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:10:31] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 02:10:34,034 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:10:34] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 02:10:39,588 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:10:39] "GET / HTTP/1.1" 200 -
+2025-11-26 02:10:39,891 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:10:39] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:12:17,744 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:12:17] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:12:26,963 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:12:26] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 02:14:37,108 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:14:37] "GET / HTTP/1.1" 200 -
+2025-11-26 02:14:37,120 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:14:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:14:49,069 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:14:49] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:14:54,897 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:14:54] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:15:18,108 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:15:18] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:15:20,854 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:15:20] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:15:47,663 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:15:47,664 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:15:47,664 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:15:47,664 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:15:47,664 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:15:47,664 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:15:48,511 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:15:51,112 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:15:51,731 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:15:51,731 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:15:52,584 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 02:15:52,585 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 02:15:52,586 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:15:52,828 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:15:52,829 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:15:52,829 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:15:52,829 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:15:52,829 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:15:52,829 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:15:53,604 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:15:56,270 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:15:56,928 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:15:56,928 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:15:56,939 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 02:15:56,944 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 02:15:57,434 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:15:57] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:16:00,328 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:16:00] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:16:04,952 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:16:04] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:18:15,700 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:18:15] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:18:28,778 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:18:28] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:19:34,979 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\ocr_backend.py', reloading
+2025-11-26 02:19:35,516 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:19:35,796 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:19:35,797 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:19:35,797 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:19:35,797 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:19:35,798 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:19:35,798 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:19:36,661 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:19:39,469 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:19:40,108 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:19:40,108 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:19:40,119 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 02:19:40,126 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 02:19:50,573 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:19:50] "GET / HTTP/1.1" 200 -
+2025-11-26 02:19:50,588 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:19:50] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:19:51,737 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:19:51] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:19:56,775 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:19:56] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:22:01,794 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\ocr_backend.py', reloading
+2025-11-26 02:22:02,288 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:22:02,532 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:22:02,533 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:22:02,533 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:22:02,533 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:22:02,534 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:22:02,534 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:22:03,362 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:22:05,291 - torch._subclasses.fake_tensor - INFO - FakeTensor cache stats:
+2025-11-26 02:22:05,291 - torch._subclasses.fake_tensor - INFO -   cache_hits: 0
+2025-11-26 02:22:05,291 - torch._subclasses.fake_tensor - INFO -   cache_misses: 0
+2025-11-26 02:23:39,712 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:23:39,712 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:23:39,712 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:23:39,713 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:23:39,713 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:23:39,713 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:23:40,559 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:23:43,272 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:23:43,884 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:23:43,885 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:23:44,748 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 02:23:44,748 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 02:23:44,750 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:23:44,994 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:23:44,994 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:23:44,995 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:23:44,995 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:23:44,995 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:23:44,996 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:23:45,826 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:23:48,396 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:23:49,033 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:23:49,033 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:23:49,043 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 02:23:49,050 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 02:23:49,065 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:23:49] "GET / HTTP/1.1" 200 -
+2025-11-26 02:23:49,318 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:23:49] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:23:49,642 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:23:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-26 02:23:51,460 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:23:51] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 02:23:58,135 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:23:58] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:24:01,879 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:01] "[31m[1mPOST /ocr HTTP/1.1[0m" 405 -
+2025-11-26 02:24:04,718 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:04] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 02:24:29,774 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:29] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:24:33,708 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:33] "GET / HTTP/1.1" 200 -
+2025-11-26 02:24:33,719 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:33] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:24:40,799 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:40] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 02:24:42,962 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:24:42] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:27:31,008 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:27:31] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 02:29:40,740 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\app.py', reloading
+2025-11-26 02:29:41,231 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:30:19,454 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:30:19,454 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:30:19,454 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:30:19,455 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:30:19,455 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:30:19,455 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:30:20,278 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:30:22,964 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:30:23,619 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:30:23,619 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:30:24,505 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 02:30:24,505 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 02:30:24,507 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 02:30:24,733 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 02:30:24,734 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 02:30:24,734 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 02:30:24,734 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 02:30:24,734 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 02:30:24,734 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 02:30:25,577 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 02:30:28,241 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 02:30:28,867 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 02:30:28,868 - aether_ia - INFO - Modo debug: True
+2025-11-26 02:30:28,879 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 02:30:28,886 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 02:30:28,906 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:30:28] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:30:28,912 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:30:28] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:30:33,542 - ocr_backend - INFO - Arquivo salvo: 20251126_023033_textos-aleatorios-17752874-251020191542.jpg
+2025-11-26 02:30:33,551 - ocr_backend - INFO - Iniciando OCR (idioma: por)
+2025-11-26 02:30:33,552 - ocr_backend - INFO - Processando imagem: static/uploads\20251126_023033_textos-aleatorios-17752874-251020191542.jpg
+2025-11-26 02:30:33,741 - ocr_backend - INFO - Geradas 8 variantes de pré-processamento
+2025-11-26 02:30:33,994 - ocr_backend - INFO - Original Gray: score=16.50, words=17
+2025-11-26 02:30:34,223 - ocr_backend - INFO - Denoised: score=16.50, words=17
+2025-11-26 02:30:34,463 - ocr_backend - INFO - Median Blur: score=16.50, words=17
+2025-11-26 02:30:34,696 - ocr_backend - INFO - Adaptive Threshold: score=16.50, words=17
+2025-11-26 02:30:34,926 - ocr_backend - INFO - OTSU: score=16.50, words=17
+2025-11-26 02:30:35,161 - ocr_backend - INFO - Sharpened: score=16.50, words=17
+2025-11-26 02:30:35,398 - ocr_backend - INFO - Morphology: score=17.50, words=18
+2025-11-26 02:30:35,635 - ocr_backend - INFO - CLAHE: score=16.50, words=17
+2025-11-26 02:30:35,635 - ocr_backend - INFO - Melhor método: Morphology (score: 17.50)
+2025-11-26 02:30:35,636 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:30:35] "POST /ocr HTTP/1.1" 200 -
+2025-11-26 02:30:35,688 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:30:35] "GET /static/uploads/20251126_023033_textos-aleatorios-17752874-251020191542.jpg HTTP/1.1" 200 -
+2025-11-26 02:30:39,139 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:30:39] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:32:21,318 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:21] "GET / HTTP/1.1" 200 -
+2025-11-26 02:32:21,435 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:21] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:32:21,439 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-26 02:32:29,430 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:29] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:32:32,436 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:32] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 02:32:59,525 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:32:59] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:33:00,416 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:33:00] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 02:33:29,889 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:33:29] "GET / HTTP/1.1" 200 -
+2025-11-26 02:33:29,915 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:33:29] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:33:36,023 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:33:36] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 02:33:38,259 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:33:38] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:36:13,460 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:13] "GET / HTTP/1.1" 200 -
+2025-11-26 02:36:13,474 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:13] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:36:28,975 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:28] "GET / HTTP/1.1" 200 -
+2025-11-26 02:36:29,254 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:29] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:36:39,219 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:39] "GET / HTTP/1.1" 200 -
+2025-11-26 02:36:39,232 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:39] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 02:36:47,597 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:47] "GET / HTTP/1.1" 200 -
+2025-11-26 02:36:47,874 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 02:36:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 07:34:10,320 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 07:34:10,320 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 07:34:10,320 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 07:34:10,321 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 07:34:10,321 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 07:34:10,321 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 07:34:12,160 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 07:34:19,118 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 07:34:19,923 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 07:34:19,923 - aether_ia - INFO - Modo debug: True
+2025-11-26 07:34:20,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-26 07:34:20,818 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 07:34:20,820 - werkzeug - INFO -  * Restarting with stat
+2025-11-26 07:34:21,053 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-26 07:34:21,053 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-26 07:34:21,054 - aether_ia - INFO - Diretório verificado: temp
+2025-11-26 07:34:21,054 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-26 07:34:21,054 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-26 07:34:21,055 - aether_ia - INFO - Diretório verificado: templates
+2025-11-26 07:34:21,848 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-26 07:34:24,326 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-26 07:34:24,975 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-26 07:34:24,975 - aether_ia - INFO - Modo debug: True
+2025-11-26 07:34:24,987 - werkzeug - WARNING -  * Debugger is active!
+2025-11-26 07:34:24,993 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-26 07:34:48,294 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:34:48] "GET / HTTP/1.1" 200 -
+2025-11-26 07:34:48,398 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:34:48] "GET /api/status HTTP/1.1" 200 -
+2025-11-26 07:34:48,462 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:34:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-26 07:37:10,921 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:37:10] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 07:54:48,610 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:54:48] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 07:55:53,787 - video_transcription_backend - INFO - Iniciando download do YouTube: https://youtu.be/4CQ_p1I6NbE?si=BJcnoDrBPKr7p1n2
+2025-11-26 07:55:54,312 - video_transcription_backend - INFO - Título: DURIN, ALICE e buffs em personagens ANTIGOS! | Resumo do Programa Especial Luna III - Genshin Impact
+2025-11-26 07:55:54,313 - video_transcription_backend - INFO - Duração: 780s (13min)
+2025-11-26 07:55:54,314 - video_transcription_backend - INFO - Stream selecionado: 160kbps - audio/webm
+2025-11-26 07:55:55,551 - video_transcription_backend - INFO - Extraindo áudio de: video_b1e32ea5883d.m4a
+2025-11-26 07:55:55,698 - video_transcription_backend - INFO - Duração do áudio: 780.02s (13.0min)
+2025-11-26 07:55:58,044 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 07:55:58,044 - video_transcription_backend - INFO - NOVA TRANSCRIÇÃO - Session: b1e32ea5883d
+2025-11-26 07:55:58,044 - video_transcription_backend - INFO - Fonte: youtube - https://youtu.be/4CQ_p1I6NbE?si=BJcnoDrBPKr7p1n2
+2025-11-26 07:55:58,044 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 07:55:58,045 - video_transcription_backend - INFO - Iniciando transcrição: audio_b1e32ea5883d.wav
+2025-11-26 07:55:58,045 - video_transcription_backend - INFO - Idioma especificado: pt
+2025-11-26 07:58:00,148 - video_transcription_backend - INFO -   - Idioma detectado: pt
+2025-11-26 07:58:00,148 - video_transcription_backend - INFO -   - Palavras: 3166
+2025-11-26 07:58:00,148 - video_transcription_backend - INFO -   - Caracteres: 16676
+2025-11-26 07:58:00,148 - video_transcription_backend - INFO -   - Segmentos: 399
+2025-11-26 07:58:00,162 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 07:58:00] "POST /transcribe HTTP/1.1" 200 -
+2025-11-26 08:01:01,364 - ocr_backend - INFO - Arquivo antigo removido: 20251126_020717_teste_texto.png
+2025-11-26 08:01:01,365 - ocr_backend - INFO - Arquivo antigo removido: 20251126_021010_teste_texto.png
+2025-11-26 08:01:01,366 - ocr_backend - INFO - Arquivo antigo removido: 20251126_023033_textos-aleatorios-17752874-251020191542.jpg
+2025-11-26 08:01:01,397 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 08:01:01] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 10:31:45,584 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:31:45] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-26 10:31:59,000 - video_transcription_backend - INFO - Iniciando download do YouTube: https://youtu.be/mXL9c2AYxDI?si=IBsxl2gKXhoJpK3P
+2025-11-26 10:31:59,458 - video_transcription_backend - INFO - Título: Legendas Para o Português do Discurso de Hitler em 1932
+2025-11-26 10:31:59,458 - video_transcription_backend - INFO - Duração: 155s (2min)
+2025-11-26 10:31:59,459 - video_transcription_backend - INFO - Stream selecionado: 160kbps - audio/webm
+2025-11-26 10:31:59,714 - video_transcription_backend - INFO - Extraindo áudio de: video_fd640c6446fe.m4a
+2025-11-26 10:31:59,784 - video_transcription_backend - INFO - Duração do áudio: 154.46s (2.6min)
+2025-11-26 10:32:00,236 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 10:32:00,236 - video_transcription_backend - INFO - NOVA TRANSCRIÇÃO - Session: fd640c6446fe
+2025-11-26 10:32:00,236 - video_transcription_backend - INFO - Fonte: youtube - https://youtu.be/mXL9c2AYxDI?si=IBsxl2gKXhoJpK3P
+2025-11-26 10:32:00,237 - video_transcription_backend - INFO - ======================================================================
+2025-11-26 10:32:00,237 - video_transcription_backend - INFO - Iniciando transcrição: audio_fd640c6446fe.wav
+2025-11-26 10:32:00,237 - video_transcription_backend - INFO - Idioma especificado: pt
+2025-11-26 10:32:18,023 - video_transcription_backend - INFO -   - Idioma detectado: pt
+2025-11-26 10:32:18,023 - video_transcription_backend - INFO -   - Palavras: 32
+2025-11-26 10:32:18,023 - video_transcription_backend - INFO -   - Caracteres: 111
+2025-11-26 10:32:18,023 - video_transcription_backend - INFO -   - Segmentos: 8
+2025-11-26 10:32:18,031 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:32:18] "POST /transcribe HTTP/1.1" 200 -
+2025-11-26 10:47:13,509 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:47:13] "GET /ocr HTTP/1.1" 200 -
+2025-11-26 10:47:25,206 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:47:25] "GET /chatbot HTTP/1.1" 200 -
+2025-11-26 10:47:25,642 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:47:25] "GET /api/histories HTTP/1.1" 200 -
+2025-11-26 10:49:24,427 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:49:24] "GET /chatbot HTTP/1.1" 200 -
+2025-11-26 10:49:24,499 - werkzeug - INFO - 127.0.0.1 - - [26/Nov/2025 10:49:24] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:16:34,827 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-30 20:16:34,827 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-30 20:16:34,828 - aether_ia - INFO - Diretório verificado: temp
+2025-11-30 20:16:34,828 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-30 20:16:34,828 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-30 20:16:34,829 - aether_ia - INFO - Diretório verificado: templates
+2025-11-30 20:16:36,937 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-30 20:16:45,209 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-30 20:16:46,097 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-30 20:16:46,097 - aether_ia - INFO - Modo debug: True
+2025-11-30 20:16:46,982 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-11-30 20:16:46,982 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-30 20:16:46,985 - werkzeug - INFO -  * Restarting with stat
+2025-11-30 20:16:47,275 - aether_ia - INFO - Diretório verificado: static/uploads
+2025-11-30 20:16:47,275 - aether_ia - INFO - Diretório verificado: uploads
+2025-11-30 20:16:47,275 - aether_ia - INFO - Diretório verificado: temp
+2025-11-30 20:16:47,276 - aether_ia - INFO - Diretório verificado: outputs
+2025-11-30 20:16:47,276 - aether_ia - INFO - Diretório verificado: chat_history
+2025-11-30 20:16:47,276 - aether_ia - INFO - Diretório verificado: templates
+2025-11-30 20:16:48,171 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-11-30 20:16:50,932 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2025-11-30 20:16:51,620 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2025-11-30 20:16:51,620 - aether_ia - INFO - Modo debug: True
+2025-11-30 20:16:51,632 - werkzeug - WARNING -  * Debugger is active!
+2025-11-30 20:16:51,638 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2025-11-30 20:16:51,692 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:16:51] "GET / HTTP/1.1" 200 -
+2025-11-30 20:16:51,775 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:16:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-30 20:16:51,794 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:16:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-30 20:16:59,837 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:16:59] "GET /ocr HTTP/1.1" 200 -
+2025-11-30 20:17:05,834 - ocr_backend - INFO - Arquivo salvo: 20251130_201705_textos-aleatorios-17752874-251020191542.jpg
+2025-11-30 20:17:05,859 - ocr_backend - INFO - Iniciando OCR (idioma: por)
+2025-11-30 20:17:05,861 - ocr_backend - INFO - Processando imagem: static/uploads\20251130_201705_textos-aleatorios-17752874-251020191542.jpg
+2025-11-30 20:17:06,077 - ocr_backend - INFO - Geradas 8 variantes de pré-processamento
+2025-11-30 20:17:06,795 - ocr_backend - INFO - Original Gray: score=16.50, words=17
+2025-11-30 20:17:07,034 - ocr_backend - INFO - Denoised: score=16.50, words=17
+2025-11-30 20:17:07,284 - ocr_backend - INFO - Median Blur: score=16.50, words=17
+2025-11-30 20:17:07,525 - ocr_backend - INFO - Adaptive Threshold: score=16.50, words=17
+2025-11-30 20:17:07,762 - ocr_backend - INFO - OTSU: score=16.50, words=17
+2025-11-30 20:17:08,007 - ocr_backend - INFO - Sharpened: score=16.50, words=17
+2025-11-30 20:17:08,252 - ocr_backend - INFO - Morphology: score=17.50, words=18
+2025-11-30 20:17:08,496 - ocr_backend - INFO - CLAHE: score=16.50, words=17
+2025-11-30 20:17:08,496 - ocr_backend - INFO - Melhor método: Morphology (score: 17.50)
+2025-11-30 20:17:08,497 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:08] "POST /ocr HTTP/1.1" 200 -
+2025-11-30 20:17:08,551 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:08] "GET /static/uploads/20251130_201705_textos-aleatorios-17752874-251020191542.jpg HTTP/1.1" 200 -
+2025-11-30 20:17:16,080 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:16] "GET /ocr HTTP/1.1" 200 -
+2025-11-30 20:17:19,991 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:19] "GET /ocr HTTP/1.1" 200 -
+2025-11-30 20:17:23,611 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:23] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-30 20:17:26,137 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:26] "GET /chatbot HTTP/1.1" 200 -
+2025-11-30 20:17:26,847 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:26] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:17:34,778 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:34] "GET /chatbot HTTP/1.1" 200 -
+2025-11-30 20:17:34,809 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:34] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:17:36,383 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:36] "GET /chatbot HTTP/1.1" 200 -
+2025-11-30 20:17:36,704 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:36] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:17:38,672 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:38] "GET /ocr HTTP/1.1" 200 -
+2025-11-30 20:17:42,672 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:42] "GET /transcribe-video HTTP/1.1" 200 -
+2025-11-30 20:17:49,051 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:49] "GET /chatbot HTTP/1.1" 200 -
+2025-11-30 20:17:49,366 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:49] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:17:50,951 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:50] "GET /api/history/a8ad1a7c4a9d889b9bc3982f50a3e676 HTTP/1.1" 200 -
+2025-11-30 20:17:51,215 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:17:51] "GET /api/histories HTTP/1.1" 200 -
+2025-11-30 20:18:16,992 - aether_ia - INFO - Buscando: me explique oque é html e me de um exemplo...
+2025-11-30 20:18:16,993 - aether_ia - INFO - Análise: {"original_query": "me explique oque é html e me de um exemplo", "normalized_query": "me explique oque é html e me de um exemplo", "main_terms": ["me", "explique", "oque", "html", "me", "de", "um", "exemplo"], "potential_confusions": [], "disambiguation_needed": false, "suggested_queries": []}
+2025-11-30 20:18:17,059 - aether_ia - INFO - Ferramentas de busca LangChain inicializadas
+2025-11-30 20:18:17,355 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20oque%20%C3%A9%20html%20e%20me%20de%20um%20exemplo 200
+2025-11-30 20:18:17,427 - primp - INFO - response: https://www.bing.com/search?q=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&pq=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&cc=pt&filters=ex1%3A%22ez5_20057_20422%22 200
+2025-11-30 20:18:17,544 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20oque%20%C3%A9%20html%20e%20me%20de%20um%20exemplo 200
+2025-11-30 20:18:17,682 - primp - INFO - response: https://www.google.com/search?q=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_sQHvlggeI9UJbVfQZvLV_Is_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=pt-BR&lr=lang_pt&cr=countryBR&tbs=qdr%3Ay 200
+2025-11-30 20:18:19,080 - primp - INFO - response: https://yandex.com/search/site/?text=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&web=1&searchid=1612267 200
+2025-11-30 20:18:19,150 - aether_ia - INFO - Busca realizada: me explique oque é html e me de um exemplo...
+2025-11-30 20:18:19,152 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:18:19] "GET /api/chat?message=me%20explique%20oque%20é%20html%20e%20me%20de%20um%20exemplo HTTP/1.1" 200 -
+2025-11-30 20:18:28,137 - aether_ia - INFO - Carregando transformers (CPU)
+2025-11-30 20:22:24,749 - werkzeug - INFO - 127.0.0.1 - - [30/Nov/2025 20:22:24] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:22:11,832 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:22:11,833 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:22:11,834 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:22:11,834 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:22:11,835 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:22:11,836 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:22:16,217 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:22:28,754 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:22:30,061 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:22:30,061 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:22:30,989 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:22:30,990 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:22:30,994 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:22:31,617 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:22:31,618 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:22:31,619 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:22:31,619 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:22:31,620 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:22:31,620 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:22:33,391 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:22:38,695 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:22:39,729 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:22:39,730 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:22:39,754 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:22:39,768 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:22:43,308 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:43] "GET / HTTP/1.1" 200 -
+2026-02-15 02:22:43,632 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:43] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:22:43,979 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-15 02:22:55,344 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:55] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:22:56,361 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:56] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:22:57,242 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:57] "GET /api/history/cbe482df2e6adb7823434bc81b206c9c HTTP/1.1" 200 -
+2026-02-15 02:22:57,586 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:22:57] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:23:11,465 - aether_ia - INFO - Buscando: me explique oque é html e me de um exemplo...
+2026-02-15 02:23:11,467 - aether_ia - INFO - Análise: {"original_query": "me explique oque é html e me de um exemplo", "normalized_query": "me explique oque é html e me de um exemplo", "main_terms": ["me", "explique", "oque", "html", "me", "de", "um", "exemplo"], "potential_confusions": [], "disambiguation_needed": false, "suggested_queries": []}
+2026-02-15 02:23:11,583 - aether_ia - INFO - Ferramentas de busca LangChain inicializadas
+2026-02-15 02:23:11,843 - primp - INFO - response: https://www.google.com/search?q=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_2jP2K6LOj48ClLya1i5Fa5A_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=pt-BR&lr=lang_pt&cr=countryBR&tbs=qdr%3Ay 200
+2026-02-15 02:23:11,927 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20oque%20%C3%A9%20html%20e%20me%20de%20um%20exemplo 200
+2026-02-15 02:23:12,644 - primp - INFO - response: https://search.yahoo.com/search;_ylt=RWc8u-zJ0NLyF-XRjXsAAg4U;_ylu=izkrPzsCW3EVW1udU9sjXEGk2Jocx_O579s_y4gpoTvW5KQ?p=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&btf=y 200
+2026-02-15 02:23:14,647 - primp - INFO - response: https://yandex.com/search/site/?text=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&web=1&searchid=7131612 200
+2026-02-15 02:23:14,770 - primp - INFO - response: https://pt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=me%20explique%20oque%20%C3%A9%20html%20e%20me%20de%20um%20exemplo 200
+2026-02-15 02:23:16,270 - primp - INFO - response: https://yandex.com/search/site/?text=me+explique+oque+%C3%A9+html+e+me+de+um+exemplo&web=1&searchid=2221959 200
+2026-02-15 02:23:16,347 - aether_ia - INFO - Busca realizada: me explique oque é html e me de um exemplo...
+2026-02-15 02:23:16,348 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:23:16] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:23:26,937 - aether_ia - INFO - Carregando transformers (CPU)
+2026-02-15 02:29:34,353 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:29:34] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:32:00,437 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:32:01,811 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:32:02,264 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:32:02,265 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:32:02,265 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:32:02,266 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:32:02,266 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:32:02,266 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:32:06,437 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:32:07,306 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:32:07,307 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:32:07,333 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:32:07,340 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:32:09,967 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:09] "[35m[1mGET /chatbot HTTP/1.1[0m" 503 -
+2026-02-15 02:32:11,266 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:11] "GET / HTTP/1.1" 200 -
+2026-02-15 02:32:11,620 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2026-02-15 02:32:12,699 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:12] "[35m[1mGET /chatbot HTTP/1.1[0m" 503 -
+2026-02-15 02:32:13,899 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:13] "GET / HTTP/1.1" 200 -
+2026-02-15 02:32:14,155 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:14] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2026-02-15 02:32:23,232 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:32:23,232 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:32:23,233 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:32:23,233 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:32:23,233 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:32:23,234 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:32:23,266 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:32:23,267 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:32:23,267 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:32:23,267 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:32:23,267 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:32:23,267 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:32:26,334 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:32:27,015 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:32:27,015 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:32:27,888 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:32:27,889 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:32:27,890 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:32:28,128 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:32:28,129 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:32:28,129 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:32:28,129 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:32:28,130 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:32:28,130 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:32:28,132 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:32:31,325 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:32:32,015 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:32:32,015 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:32:32,031 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:32:32,038 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:32:32,058 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:32] "GET / HTTP/1.1" 200 -
+2026-02-15 02:32:32,293 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:32] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:32:34,017 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:34] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:32:34,386 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:34] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:32:37,599 - chatbot_backend - ERROR - Ollama não instalado. Execute: pip install ollama
+2026-02-15 02:32:37,600 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:32:37] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:33:08,775 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:33:08,776 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:33:08,776 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:33:08,777 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:33:08,777 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:33:08,778 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:33:08,781 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:33:08,781 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:33:08,781 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:33:08,781 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:33:08,782 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:33:08,782 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:33:13,080 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:33:13,871 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:33:13,871 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:33:14,735 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:33:14,736 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:33:14,738 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:33:15,052 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:33:15,053 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:33:15,053 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:33:15,053 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:33:15,054 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:33:15,054 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:33:15,057 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:33:18,959 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:33:19,900 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:33:19,901 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:33:19,918 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:33:19,925 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:33:19,947 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:19] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:33:19,952 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:19] "GET / HTTP/1.1" 200 -
+2026-02-15 02:33:21,675 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:21] "GET / HTTP/1.1" 200 -
+2026-02-15 02:33:21,912 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:21] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:33:22,855 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:22] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:33:23,247 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:23] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:33:26,060 - chatbot_backend - INFO - Gerando com Ollama - modelo: llama3.2
+2026-02-15 02:33:26,116 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:33:26,116 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 392, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:33:26,118 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:33:26] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:37:06,200 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\app.py', reloading
+2026-02-15 02:37:06,683 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:37:06,939 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:37:06,940 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:37:06,940 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:37:06,940 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:37:06,941 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:37:06,941 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:37:06,941 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:37:06,943 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:37:06,943 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:37:06,943 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:37:06,943 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:37:06,944 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:37:06,944 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:37:06,947 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:37:07,067 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:37:10,737 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:37:11,456 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:37:11,456 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:37:11,469 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:37:11,476 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:37:13,978 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:13] "GET / HTTP/1.1" 200 -
+2026-02-15 02:37:14,230 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:14] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:37:17,383 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:17] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:37:17,764 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:17] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:37:24,536 - chatbot_backend - INFO - Gerando com Ollama - modelo: llama3.2
+2026-02-15 02:37:24,543 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:37:24,544 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 392, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:37:24,545 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:24] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:37:46,442 - chatbot_backend - INFO - Gerando com Ollama - modelo: llama3.2
+2026-02-15 02:37:46,447 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:37:46,448 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 392, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:37:46,449 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:46] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:37:48,236 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:48] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:37:48,625 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:37:48] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:38:23,863 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:38:24,347 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:38:24,583 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:38:24,583 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:38:24,584 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:38:24,584 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:38:24,584 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:38:24,585 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:38:24,585 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:38:24,604 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:38:24,605 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:24,605 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:38:24,605 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:38:24,605 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:38:24,605 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:24,609 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:38:24,727 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:38:27,725 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:38:28,396 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:38:28,397 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:38:28,412 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:38:28,421 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:38:47,694 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:38:47,695 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:38:47,695 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:38:47,696 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:38:47,696 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:38:47,696 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:38:47,696 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:38:47,698 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:38:47,699 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:47,699 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:38:47,699 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:38:47,699 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:38:47,699 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:47,702 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:38:47,832 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:38:50,974 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:38:51,684 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:38:51,685 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:38:52,546 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:38:52,546 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:38:52,548 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:38:52,817 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:38:52,818 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:38:52,818 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:38:52,819 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:38:52,819 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:38:52,819 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:38:52,820 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - LLM Manager inicializado - Provider: ollama
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - Chatbot Backend Inicializado
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - Provider: ollama
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - Modelo: llama3.2
+2026-02-15 02:38:52,822 - chatbot_backend - INFO - ======================================================================
+2026-02-15 02:38:52,826 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:38:52,953 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:38:56,138 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:38:56,856 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:38:56,856 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:38:56,870 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:38:56,877 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:38:56,896 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:38:56] "GET / HTTP/1.1" 200 -
+2026-02-15 02:38:56,943 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:38:56] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:38:58,297 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:38:58] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:38:58,543 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:38:58] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:38:59,867 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:38:59] "GET /api/history/ff24c3b9df9b862eda917daf53513cab HTTP/1.1" 200 -
+2026-02-15 02:39:00,202 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:39:00] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:39:05,075 - chatbot_backend - INFO - Gerando com Ollama - modelo: llama3.2
+2026-02-15 02:39:05,081 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:39:05,082 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 392, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:39:05,083 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:39:05] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:39:48,180 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:39:48,773 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:39:49,099 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:39:49,099 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:39:49,100 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:39:49,100 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:39:49,101 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:39:49,101 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:39:49,101 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:39:49,109 - aether_ia - WARNING -    Verifique se chatbot_backend.py existe e se as dependências estão instaladas
+2026-02-15 02:39:49,109 - aether_ia - WARNING -    Execute: pip install ollama (ou pip install transformers torch)
+2026-02-15 02:39:49,110 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:39:49,257 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:39:52,396 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:39:53,075 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:39:53,075 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:39:53,089 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:39:53,095 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:39:56,126 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\app.py', reloading
+2026-02-15 02:39:56,606 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:39:56,873 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:39:56,874 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:39:56,874 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:39:56,874 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:39:56,875 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:39:56,875 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:39:57,936 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:40:01,322 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:40:02,017 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:40:02,018 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:40:02,035 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:40:02,043 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:40:02,180 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:02] "GET / HTTP/1.1" 200 -
+2026-02-15 02:40:02,225 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:02] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:40:03,376 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:03] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:40:03,646 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:03] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:40:04,427 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:04] "GET /api/history/a7dd39d1801698834110cc4688139e1c HTTP/1.1" 200 -
+2026-02-15 02:40:04,757 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:04] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:40:06,952 - chatbot_backend - INFO - Ollama carregado: llama3.2
+2026-02-15 02:40:06,961 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:40:06,962 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 654, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:40:06,964 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:06] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:40:47,659 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:40:47,660 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:40:47,660 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:40:47,661 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:40:47,661 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:40:47,661 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:40:48,550 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:40:51,946 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:40:52,638 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:40:52,638 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:40:53,509 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:40:53,509 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:40:53,511 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:40:53,785 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:40:53,785 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:40:53,786 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:40:53,786 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:40:53,786 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:40:53,787 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:40:54,694 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:40:58,646 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:40:59,399 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:40:59,400 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:40:59,413 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:40:59,421 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:40:59,550 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:59] "GET / HTTP/1.1" 200 -
+2026-02-15 02:40:59,598 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:40:59] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:41:04,067 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:04] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:41:04,295 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:04] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:41:05,394 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:05] "GET / HTTP/1.1" 200 -
+2026-02-15 02:41:05,765 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:05] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:41:06,509 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:06] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:41:06,913 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:06] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:41:07,855 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:07] "GET /api/history/a7dd39d1801698834110cc4688139e1c HTTP/1.1" 200 -
+2026-02-15 02:41:08,177 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:08] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:41:10,526 - chatbot_backend - INFO - Ollama carregado: llama3.2
+2026-02-15 02:41:10,534 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:41:10,535 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 654, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:41:10,537 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:10] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:41:14,684 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:41:14,684 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 654, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:41:14,685 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:14] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:41:41,791 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\app.py', reloading
+2026-02-15 02:41:42,331 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:41:42,599 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:41:42,599 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:41:42,600 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:41:42,600 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:41:42,600 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:41:42,601 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:41:42,601 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:41:43,437 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:41:43,849 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:41:43,963 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:41:46,937 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:41:47,854 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:41:47,855 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:41:47,870 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:41:47,878 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:41:48,025 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:48] "GET / HTTP/1.1" 200 -
+2026-02-15 02:41:48,089 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:41:48] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:41:56,272 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:41:56,273 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:41:56,273 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:41:56,274 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:41:56,274 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:41:56,275 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:41:56,275 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:41:57,129 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:41:57,534 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:41:57,645 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:42:00,660 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:42:01,364 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:42:01,364 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:42:02,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:42:02,232 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:42:02,234 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:42:02,489 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:42:02,490 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:42:02,491 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:42:02,491 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:42:02,491 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:42:02,492 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:42:02,492 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:42:03,677 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:42:04,100 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:42:04,234 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:42:07,183 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:42:07,931 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:42:07,931 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:42:07,946 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:42:07,953 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:42:08,086 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:08] "GET / HTTP/1.1" 200 -
+2026-02-15 02:42:08,355 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:08] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:42:11,681 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:11] "GET /transcribe-video HTTP/1.1" 200 -
+2026-02-15 02:42:15,368 - ocr_backend - INFO - Arquivo antigo removido: 20251130_201705_textos-aleatorios-17752874-251020191542.jpg
+2026-02-15 02:42:15,408 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:15] "GET /ocr HTTP/1.1" 200 -
+2026-02-15 02:42:17,959 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:17] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:42:18,240 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:18] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:19,079 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:19] "GET /api/history/d13aadd31b2db55a40beb9bd83650344 HTTP/1.1" 200 -
+2026-02-15 02:42:19,403 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:19] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:20,316 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:20] "GET /api/history/a7dd39d1801698834110cc4688139e1c HTTP/1.1" 200 -
+2026-02-15 02:42:20,650 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:20] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:21,295 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:21] "GET /api/history/ff24c3b9df9b862eda917daf53513cab HTTP/1.1" 200 -
+2026-02-15 02:42:21,619 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:21] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:22,004 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:22] "GET /api/history/69879660eba610840ae10543635ac679 HTTP/1.1" 200 -
+2026-02-15 02:42:22,338 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:22] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:22,565 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:22] "GET /api/history/f43dd0e0451636de2734b04d10bd52fb HTTP/1.1" 200 -
+2026-02-15 02:42:22,767 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:22] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:23,576 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:23] "GET /api/history/a7dd39d1801698834110cc4688139e1c HTTP/1.1" 200 -
+2026-02-15 02:42:23,897 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:23] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:42:26,292 - chatbot_backend - INFO - Ollama carregado: llama3.2
+2026-02-15 02:42:26,301 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-15 02:42:26,301 - chatbot_backend - ERROR - Erro Ollama: model 'llama3.2' not found (status code: 404)
+Traceback (most recent call last):
+  File "c:\Users\Pichau\Documents\aether_ia\chatbot_backend.py", line 654, in generate_stream
+    for chunk in response_stream:
+                 ^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\AppData\Local\Programs\Python\Python313\Lib\site-packages\ollama\_client.py", line 179, in inner
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model 'llama3.2' not found (status code: 404)
+2026-02-15 02:42:26,303 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:42:26] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:43:27,525 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:43:28,059 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:43:28,299 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:43:28,300 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:43:28,300 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:43:28,301 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:43:28,301 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:43:28,301 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:43:28,301 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:43:29,159 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:43:29,578 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:43:29,690 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:43:32,325 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:43:33,044 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:43:33,044 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:43:33,060 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:43:33,068 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:43:33,206 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:33] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:43:33,295 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:33] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:43:34,864 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:34] "GET /api/history/d13aadd31b2db55a40beb9bd83650344 HTTP/1.1" 200 -
+2026-02-15 02:43:35,119 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:35] "GET /api/history/a7dd39d1801698834110cc4688139e1c HTTP/1.1" 200 -
+2026-02-15 02:43:35,150 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:35] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:43:35,195 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:35] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:43:38,012 - chatbot_backend - INFO - Ollama carregado: llama3.2:3b
+2026-02-15 02:43:48,106 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:43:48,107 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:43:48] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:44:47,623 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:44:47,623 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:44:47,624 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:44:47,624 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:44:47,624 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:44:47,625 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:44:47,625 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:44:48,526 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:44:48,956 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:44:49,075 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:44:51,850 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:44:52,640 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:44:52,640 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:44:53,498 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 02:44:53,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 02:44:53,500 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:44:53,765 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:44:53,766 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:44:53,766 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:44:53,767 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:44:53,767 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:44:53,767 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:44:53,767 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:44:54,774 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:44:55,313 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:44:55,480 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:44:58,492 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:44:59,231 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:44:59,232 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:44:59,245 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:44:59,252 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:44:59,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:44:59] "GET / HTTP/1.1" 200 -
+2026-02-15 02:44:59,995 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:44:59] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:45:00,888 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:45:00] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:45:01,259 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:45:01] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:45:05,539 - chatbot_backend - INFO - Ollama carregado: llama3.2:3b
+2026-02-15 02:45:06,412 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:45:06,413 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:45:06] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:45:52,469 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:45:52] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:46:57,695 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:46:57,696 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:46:57] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:47:30,948 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:47:30] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:52:48,355 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:52:48,974 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:52:49,238 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:52:49,238 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:52:49,239 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:52:49,239 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:52:49,239 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:52:49,240 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:52:49,240 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:52:50,359 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:52:50,478 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:52:53,910 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:52:54,659 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:52:54,660 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:52:54,673 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:52:54,679 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:52:55,896 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:55] "GET / HTTP/1.1" 200 -
+2026-02-15 02:52:56,147 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:56] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:52:56,819 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:56] "GET / HTTP/1.1" 200 -
+2026-02-15 02:52:57,193 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:57] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:52:58,682 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:58] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:52:59,054 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:52:59] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:53:14,622 - chatbot_backend - INFO - Query type: complex_question | Message: me explique java e me de um exemplo
+2026-02-15 02:53:14,932 - httpx - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2026-02-15 02:53:21,179 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:53:21,180 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:21] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:53:34,335 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:34] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:53:47,132 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\chatbot_backend.py', reloading
+2026-02-15 02:53:47,741 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 02:53:48,039 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 02:53:48,039 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 02:53:48,040 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 02:53:48,040 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 02:53:48,041 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 02:53:48,041 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 02:53:48,041 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 02:53:48,972 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 02:53:49,400 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 02:53:49,530 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 02:53:52,404 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 02:53:53,126 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 02:53:53,126 - aether_ia - INFO - Modo debug: True
+2026-02-15 02:53:53,139 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 02:53:53,146 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 02:53:53,170 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:53] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:53:53,174 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:53] "GET / HTTP/1.1" 200 -
+2026-02-15 02:53:53,552 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:53] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 02:53:54,182 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:54] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 02:53:54,556 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:54] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:53:55,057 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:55] "GET /api/history/b85e5fbfc7708a9e508fbde3a60e20e5 HTTP/1.1" 200 -
+2026-02-15 02:53:55,384 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:53:55] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:54:00,672 - chatbot_backend - INFO - Ollama carregado: llama3.2:3b
+2026-02-15 02:54:05,380 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:54:05,382 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:54:05] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:54:48,216 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:54:48] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 02:55:29,015 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 02:55:29,016 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:55:29] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 02:56:50,624 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 02:56:50] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 19:44:08,624 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 19:44:08,624 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 19:44:08,625 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 19:44:08,625 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 19:44:08,625 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 19:44:08,626 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 19:44:08,626 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 19:44:10,663 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 19:44:11,122 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 19:44:11,878 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 19:44:18,960 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 19:44:19,860 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 19:44:19,860 - aether_ia - INFO - Modo debug: True
+2026-02-15 19:44:20,754 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-02-15 19:44:20,755 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 19:44:20,757 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 19:44:21,051 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-02-15 19:44:21,052 - aether_ia - INFO - Diretório verificado: uploads
+2026-02-15 19:44:21,052 - aether_ia - INFO - Diretório verificado: temp
+2026-02-15 19:44:21,053 - aether_ia - INFO - Diretório verificado: outputs
+2026-02-15 19:44:21,053 - aether_ia - INFO - Diretório verificado: chat_history
+2026-02-15 19:44:21,054 - aether_ia - INFO - Diretório verificado: templates
+2026-02-15 19:44:21,054 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-02-15 19:44:21,936 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-02-15 19:44:22,375 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-02-15 19:44:22,506 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-02-15 19:44:25,234 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-02-15 19:44:26,006 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-02-15 19:44:26,006 - aether_ia - INFO - Modo debug: True
+2026-02-15 19:44:26,019 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 19:44:26,027 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-02-15 19:44:26,186 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:26] "GET / HTTP/1.1" 200 -
+2026-02-15 19:44:26,450 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-02-15 19:44:26,763 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:26] "GET /api/status HTTP/1.1" 200 -
+2026-02-15 19:44:34,527 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:34] "GET /chatbot HTTP/1.1" 200 -
+2026-02-15 19:44:34,900 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-02-15 19:44:35,305 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:35] "GET /api/histories HTTP/1.1" 200 -
+2026-02-15 19:44:47,009 - chatbot_backend - INFO - Ollama carregado: llama3.2:3b
+2026-02-15 19:44:55,222 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-15 19:44:55,223 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:44:55] "POST /api/chat HTTP/1.1" 200 -
+2026-02-15 19:45:34,188 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 19:45:34] "GET /api/histories HTTP/1.1" 200 -
+2026-03-14 18:59:14,530 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-14 18:59:14,530 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-14 18:59:14,531 - aether_ia - INFO - Diretório verificado: temp
+2026-03-14 18:59:14,531 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-14 18:59:14,532 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-14 18:59:14,532 - aether_ia - INFO - Diretório verificado: templates
+2026-03-14 18:59:14,532 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-14 18:59:17,372 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-14 18:59:17,899 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-14 18:59:19,897 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-14 18:59:27,807 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-14 18:59:28,698 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-14 18:59:28,698 - aether_ia - INFO - Modo debug: True
+2026-03-14 18:59:29,590 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-03-14 18:59:29,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-14 18:59:29,593 - werkzeug - INFO -  * Restarting with stat
+2026-03-14 18:59:29,853 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-14 18:59:29,854 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-14 18:59:29,854 - aether_ia - INFO - Diretório verificado: temp
+2026-03-14 18:59:29,854 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-14 18:59:29,855 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-14 18:59:29,855 - aether_ia - INFO - Diretório verificado: templates
+2026-03-14 18:59:29,855 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-14 18:59:30,711 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-14 18:59:31,130 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-14 18:59:31,246 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-14 18:59:33,874 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-14 18:59:34,717 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-14 18:59:34,718 - aether_ia - INFO - Modo debug: True
+2026-03-14 18:59:34,734 - werkzeug - WARNING -  * Debugger is active!
+2026-03-14 18:59:34,743 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-14 18:59:34,912 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:34] "GET / HTTP/1.1" 200 -
+2026-03-14 18:59:34,917 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:34] "GET /chatbot HTTP/1.1" 200 -
+2026-03-14 18:59:34,975 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:34] "GET / HTTP/1.1" 200 -
+2026-03-14 18:59:35,229 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:35] "GET /api/status HTTP/1.1" 200 -
+2026-03-14 18:59:35,543 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-14 18:59:37,780 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:37] "GET /transcribe-video HTTP/1.1" 200 -
+2026-03-14 18:59:38,160 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 18:59:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-14 19:00:12,611 - video_transcription_backend - INFO - Arquivo antigo removido: transcription_b1e32ea5883d.txt
+2026-03-14 19:00:12,612 - video_transcription_backend - INFO - Arquivo antigo removido: transcription_cfa954d4453e.txt
+2026-03-14 19:00:12,613 - video_transcription_backend - INFO - Arquivo antigo removido: transcription_fd640c6446fe.txt
+2026-03-14 19:00:12,613 - video_transcription_backend - INFO - Limpeza concluída: 3 arquivo(s) removido(s)
+2026-03-14 19:00:12,614 - video_transcription_backend - INFO - Iniciando download do YouTube: https://youtu.be/EU0zcdHEU1o?si=hp6m14wu8CN1z14d
+2026-03-14 19:00:13,123 - video_transcription_backend - INFO - Título: PASCAL Mascota de RAPUNZEL Amigurumi Tutorial paso a paso (Patrón en Descripción)
+2026-03-14 19:00:13,124 - video_transcription_backend - INFO - Duração: 1831s (30min)
+2026-03-14 19:00:13,124 - video_transcription_backend - INFO - Stream selecionado: 160kbps - audio/webm
+2026-03-14 19:00:15,884 - video_transcription_backend - INFO - Extraindo áudio de: video_51d54dcd42da.m4a
+2026-03-14 19:00:16,039 - video_transcription_backend - INFO - Duração do áudio: 1831.02s (30.5min)
+2026-03-14 19:00:21,525 - video_transcription_backend - INFO - ======================================================================
+2026-03-14 19:00:21,525 - video_transcription_backend - INFO - NOVA TRANSCRIÇÃO - Session: 51d54dcd42da
+2026-03-14 19:00:21,525 - video_transcription_backend - INFO - Fonte: youtube - https://youtu.be/EU0zcdHEU1o?si=hp6m14wu8CN1z14d
+2026-03-14 19:00:21,525 - video_transcription_backend - INFO - ======================================================================
+2026-03-14 19:00:21,526 - video_transcription_backend - INFO - Iniciando transcrição: audio_51d54dcd42da.wav
+2026-03-14 19:00:21,526 - video_transcription_backend - INFO - Idioma especificado: es
+2026-03-14 19:02:56,755 - video_transcription_backend - INFO -   - Idioma detectado: es
+2026-03-14 19:02:56,755 - video_transcription_backend - INFO -   - Palavras: 3538
+2026-03-14 19:02:56,755 - video_transcription_backend - INFO -   - Caracteres: 18224
+2026-03-14 19:02:56,755 - video_transcription_backend - INFO -   - Segmentos: 199
+2026-03-14 19:02:56,770 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 19:02:56] "POST /transcribe HTTP/1.1" 200 -
+2026-03-14 19:04:38,782 - video_transcription_backend - INFO - Download solicitado: transcription_51d54dcd42da.txt
+2026-03-14 19:04:38,828 - werkzeug - INFO - 127.0.0.1 - - [14/Mar/2026 19:04:38] "GET /download/transcription_51d54dcd42da.txt HTTP/1.1" 200 -
+2026-03-26 16:25:40,270 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:25:40,271 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:25:40,271 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:25:40,272 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:25:40,272 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:25:40,272 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:25:40,272 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:25:43,322 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:25:43,858 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:25:44,692 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:25:52,422 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:25:53,409 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:25:53,409 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:25:54,289 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2026-03-26 16:25:54,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-26 16:25:54,292 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:25:54,567 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:25:54,567 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:25:54,568 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:25:54,568 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:25:54,568 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:25:54,569 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:25:54,569 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:25:55,544 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:25:55,957 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:25:56,069 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:25:58,825 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:25:59,544 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:25:59,545 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:25:59,556 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:25:59,564 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:27:02,886 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\ocr_backend.py', reloading
+2026-03-26 16:27:03,461 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:27:03,703 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:27:03,703 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:27:03,704 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:27:03,704 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:27:03,704 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:27:03,705 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:27:03,705 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:27:04,585 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:27:05,020 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:27:05,140 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:27:07,669 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:27:08,315 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:27:08,315 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:27:08,327 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:27:08,334 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:27:14,377 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\video_transcription_backend.py', reloading
+2026-03-26 16:27:14,879 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:27:15,112 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:27:15,112 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:27:15,112 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:27:15,113 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:27:15,113 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:27:15,113 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:27:15,113 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:27:15,932 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:27:16,326 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:27:16,433 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:27:18,909 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:27:19,544 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:27:19,544 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:27:19,555 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:27:19,562 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:27:28,619 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\video_transcription_backend.py', reloading
+2026-03-26 16:27:29,124 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:27:29,359 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:27:29,359 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:27:29,360 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:27:29,360 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:27:29,360 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:27:29,360 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:27:29,361 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:27:30,248 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:27:30,659 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:27:30,768 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:27:33,258 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:27:33,883 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:27:33,883 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:27:33,895 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:27:33,901 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:28:39,225 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\video_transcription_backend.py', reloading
+2026-03-26 16:28:39,785 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:28:40,033 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:28:40,034 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:28:40,034 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:28:40,034 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:28:40,034 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:28:40,035 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:28:40,035 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:28:40,851 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:28:41,254 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:28:41,371 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:28:43,864 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:28:44,511 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:28:44,511 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:28:44,535 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:28:44,544 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:28:48,581 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Pichau\\Documents\\aether_ia\\ocr_backend.py', reloading
+2026-03-26 16:28:49,176 - werkzeug - INFO -  * Restarting with stat
+2026-03-26 16:28:49,433 - aether_ia - INFO - Diretório verificado: static/uploads
+2026-03-26 16:28:49,434 - aether_ia - INFO - Diretório verificado: uploads
+2026-03-26 16:28:49,434 - aether_ia - INFO - Diretório verificado: temp
+2026-03-26 16:28:49,434 - aether_ia - INFO - Diretório verificado: outputs
+2026-03-26 16:28:49,435 - aether_ia - INFO - Diretório verificado: chat_history
+2026-03-26 16:28:49,435 - aether_ia - INFO - Diretório verificado: templates
+2026-03-26 16:28:49,435 - aether_ia - INFO - Tentando carregar módulo Chatbot...
+2026-03-26 16:28:50,295 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2026-03-26 16:28:50,701 - aether_ia - INFO - Tentando carregar módulo OCR...
+2026-03-26 16:28:50,821 - aether_ia - INFO - Tentando carregar módulo Transcrição de Vídeo...
+2026-03-26 16:28:53,396 - video_transcription_backend - INFO - Carregando modelo Whisper 'base'...
+2026-03-26 16:28:54,068 - aether_ia - INFO - Iniciando servidor em 0.0.0.0:5000
+2026-03-26 16:28:54,068 - aether_ia - INFO - Modo debug: True
+2026-03-26 16:28:54,079 - werkzeug - WARNING -  * Debugger is active!
+2026-03-26 16:28:54,086 - werkzeug - INFO -  * Debugger PIN: 134-943-255
+2026-03-26 16:30:34,949 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:30:34] "GET / HTTP/1.1" 200 -
+2026-03-26 16:30:35,083 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:30:35] "GET /api/status HTTP/1.1" 200 -
+2026-03-26 16:30:35,321 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:30:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:33:27,158 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:33:27] "GET /chatbot HTTP/1.1" 200 -
+2026-03-26 16:33:27,531 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:33:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:33:27,860 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:33:27] "GET /api/histories HTTP/1.1" 200 -
+2026-03-26 16:33:29,824 - chatbot_backend - INFO - Ollama carregado: llama3.2:3b
+2026-03-26 16:33:37,303 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-03-26 16:33:37,305 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:33:37] "POST /api/chat HTTP/1.1" 200 -
+2026-03-26 16:34:03,662 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:03] "GET /api/histories HTTP/1.1" 200 -
+2026-03-26 16:34:05,953 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:05] "GET / HTTP/1.1" 200 -
+2026-03-26 16:34:06,331 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:06] "GET /api/status HTTP/1.1" 200 -
+2026-03-26 16:34:06,363 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:34:07,441 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:07] "GET /chatbot HTTP/1.1" 200 -
+2026-03-26 16:34:07,811 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:34:07,826 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:07] "GET /api/histories HTTP/1.1" 200 -
+2026-03-26 16:34:21,762 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-03-26 16:34:21,763 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:34:21] "POST /api/chat HTTP/1.1" 200 -
+2026-03-26 16:35:03,658 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:03] "GET /api/histories HTTP/1.1" 200 -
+2026-03-26 16:35:07,147 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:07] "GET / HTTP/1.1" 200 -
+2026-03-26 16:35:07,528 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:07] "GET /api/status HTTP/1.1" 200 -
+2026-03-26 16:35:07,558 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:08,824 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:08] "GET /ocr HTTP/1.1" 200 -
+2026-03-26 16:35:09,214 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:10,690 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:11,672 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:11] "GET /transcribe-video HTTP/1.1" 200 -
+2026-03-26 16:35:11,905 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:11] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:20,742 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:37,045 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:37] "GET /api/status HTTP/1.1" 200 -
+2026-03-26 16:35:37,299 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-03-26 16:35:46,653 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2026 16:35:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -

@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "me explique oque é html e me de um exemplo",
+    "timestamp": "2026-02-15T05:23:11.465283"
+  },
+  {
+    "role": "agent",
+    "content": "**O que é HTML?\n**\n\nO HTML (HyperText Markup Language) é uma linguagem de marcação usada para criar e estruturar conteúdo na Internet. É a base para a criação de páginas web e é responsável por definir a estrutura e o layout de uma página.\n**Como funciona o HTML?\n**\n\nO HTML é composto por elementos de marcação que definem a estrutura e o conteúdo de uma página. Esses elementos podem ser divididos em dois tipos:\n\n*   **Elementos de cabeçalho**: (`<h1>`, `<h2>`, `<h3>`, etc.): definem o título da página ou seção.\n*   **Elementos de parágrafo**: (`<p>`): definem um parágrafo de texto.\n*   **Elementos de imagem**: (`<img>`): definem uma imagem.\n*   **Elementos de link**: (`<a>`): definem um link para outra página.\n**Exemplo de HTML**\n\n```html\n<! DOCTYPE html>\n<html>\n<head>\n    <title>Como criar uma página em HTML</title>\n</head>\n<body>\n    <h1>Como criar uma página em HTML</h1>\n    <p>HTML é uma linguagem de marcação usada para criar e estruturar conteúdo na Internet.</p>\n    <img src=\"imagem.jpg\" alt=\"Imagem\">\n    <a href=\"https://www.example.com\">Clique aqui para ir para a página de exemplo</a>\n</body>\n</html>\n```\n\nNesse exemplo, podemos ver como os elementos de cabeçalho (`<h1>`, `<p>`) e de imagem (`<img>`) são usados para criar uma página de exemplo.\n**Conclusão**\n\nEm resumo, o HTML é uma linguagem de marcação usada para criar e estruturar conteúdo na Internet. Ele é composto por elementos de marcação que definem a estrutura e o conteúdo de uma página. Com o HTML, é possível criar páginas web complexas e interessantes. Além disso, é uma linguagem amplamente utilizada e fácil de aprender, tornando-a uma ferramenta valiosa para qualquer pessoa interessada em criar conteúdo na Internet.",
+    "timestamp": "2026-02-15T05:29:33.931397",
+    "search_performed": true,
+    "disambiguation_used": false
+  }
+]

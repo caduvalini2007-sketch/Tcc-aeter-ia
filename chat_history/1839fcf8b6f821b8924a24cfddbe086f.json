@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "me explique detalhadamente a linguagem de programaçao c++",
+    "timestamp": "2025-11-19T16:11:09.187326"
+  },
+  {
+    "role": "agent",
+    "content": "C++ é uma linguagem de programação de alto nível, amplamente utilizada em desenvolvimento de software, sistemas operacionais e aplicações de alto desempenho. Aqui estão alguns aspectos importantes sobre a linguagem C++:\n\n**História da Linguagem**\n\nC++ foi desenvolvida pela Microsoft e a Universidade de Wisconsin-Madison em 1983. A linguagem foi criada por Bjarne Stroustrup como uma extensão do lenguagem C.\n**Características Principais**\n\n*   **Tipagem Estática**: C++ é uma linguagem de tipagem estática, o que significa que o tipo de uma variável é conhecido durante a compilação e não durante o runtime.\n*   **Objetos e Classes**: C++ suporta a programação orientada a objetos, com suporte a classes, objetos e herança.\n*   **Funções e Ponteiros**: C++ suporta a programação funcional com funções e ponteiros.\n*   **Símbolos de Controle**: C++ suporta um conjunto de símbolos de controle, incluindo if, switch, while, for, etc.\n**Tipos de Dados**\n\nC++ suporta vários tipos de dados, incluindo:\n\n*   **Inteiros**: int, long, long long\n*   **Flutuantes**: float, double, long double\n*   **Caracteres**: char, wchar_t\n*   **Ponteiros**: void \\*, char \\*, int \\*, etc.\n**Operadores**\n\nC++ suporta uma variedade de operadores, incluindo:\n\n*   **Operadores Aritméticos**: +, -, \\*, /, %\n*   **Operadores Lógicos**: &&, ||,!\n*   **Operadores de Comparação**: ==,!=, <, >, <=, >=\n*   **Operadores de Atribuição**: =, +=, -=, \\*=, /=, %=, etc.\n**Exemplo Prático**\n\nAqui está um exemplo simples de um programa que calcula o valor de pi:\n```cpp\n#include <iostream>\n\nint main() {\n    double pi = 3.14159265359;\n    double soma = 0;\n    int termos = 100;\n\n    for (int i = 0; i < termos; i++)",
+    "timestamp": "2025-11-19T16:15:01.680548"
+  }
+]
