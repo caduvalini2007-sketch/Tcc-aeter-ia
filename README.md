@@ -116,22 +116,4 @@ pip install -r requirements.txt
 
 ---
 
-## 🤝 Contribuição
 
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature: `git checkout -b feature/minha-feature`
-3. Commit suas alterações: `git commit -m 'feat: adiciona minha feature'`
-4. Push para a branch: `git push origin feature/minha-feature`
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está sob licença — consulte o arquivo `LICENSE` para mais detalhes.
-
----
-
-<p align="center">Feito com 💙 — Aether IA</p>
