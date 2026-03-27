@@ -1,119 +1,104 @@
-# ✨ Aether IA
+# ✨ Aether IA — Assistente Inteligente Multimodal
 
-> Assistente de Inteligência Artificial com interface web, chatbot conversacional e reconhecimento óptico de caracteres (OCR).
+> **Aether IA** é uma plataforma avançada de Inteligência Artificial que combina um chatbot conversacional, reconhecimento óptico de caracteres (OCR) e um poderoso sistema de transcrição de áudio e vídeo.
 
 ---
 
 ## 📋 Sobre o Projeto
 
-**Aether IA** é uma aplicação web construída em Python com Flask que oferece uma interface conversacional com IA e funcionalidades de OCR. O projeto permite interações via chat com um modelo de linguagem e processamento de imagens/documentos para extração de texto.
+Desenvolvido em **Python com Flask**, o Aether IA foi projetado para ser uma ferramenta centralizada de produtividade. Ele permite que usuários interajam com modelos de linguagem, extraiam textos de documentos físicos e convertam mídias audiovisuais em texto editável de forma simples e eficiente.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+### 💬 Chatbot com IA
+*   **Conversação Inteligente**: Interface web moderna para diálogos fluidos.
+*   **Integração com Ollama**: Suporte a modelos como Llama 3.2 para processamento local.
+*   **Histórico Persistente**: Conversas são salvas automaticamente na pasta `chat_history/`.
+
+### 🔍 Reconhecimento de Texto (OCR)
+*   **Extração de Documentos**: Transforme imagens (JPG, PNG) em texto digital.
+*   **Processamento em Lote**: Suporte para múltiplos uploads e organização de resultados.
+
+### 🎥 Transcrição de Vídeo e Áudio (Nova!)
+*   **Suporte Multimídia**: Transcreve arquivos de vídeo (`.mp4`, `.mkv`, `.mov`, `.avi`) e áudio (`.mp3`, `.wav`, `.m4a`).
+*   **Integração com YouTube**: Basta colar a URL do vídeo para que o sistema baixe o áudio e realize a transcrição automaticamente.
+*   **Tecnologia Whisper (OpenAI)**: Utiliza o modelo `base` do Whisper para garantir alta precisão e suporte a múltiplos idiomas com detecção automática.
+*   **Exportação**: Gera arquivos de texto estruturados com cabeçalhos e metadados da transcrição.
 
 ---
 
 ## 🗂️ Estrutura do Projeto
 
-```
+```text
 aether_ia/
-├── app.py                  # Aplicação principal Flask (rotas e servidor)
-├── chatbot_backend.py      # Lógica do chatbot e integração com IA
-├── ocr_backend.py          # Backend de OCR (reconhecimento de texto em imagens)
-├── requirements.txt        # Dependências Python
-├── templates/
-│   ├── index.html          # Página principal da interface
-│   ├── index4.html         # Variante da interface principal
-│   └── error.html          # Página de erros
-├── static/
-│   └── uploads/            # Arquivos estáticos e uploads da interface
-├── uploads/                # Diretório de arquivos enviados pelo usuário
-├── outputs/                # Resultados processados
-├── temp/                   # Arquivos temporários
-├── chat_history/           # Histórico de conversas salvas
-├── aether_ia.log           # Log da aplicação
-└── transcription.log       # Log de transcrições OCR
+├── app.py                        # Servidor principal e roteamento global
+├── chatbot_backend.py            # Lógica do Chatbot e integração IA
+├── ocr_backend.py                # Processamento de imagens (OCR)
+├── video_transcription_backend.py # Lógica de transcrição de vídeo/áudio (Whisper)
+├── requirements.txt              # Dependências do projeto
+├── templates/                    # Interfaces HTML (index, chatbot, vídeo)
+├── static/                       # CSS, JS e assets da interface
+├── uploads/                      # Armazenamento temporário de mídias enviadas
+├── outputs/                      # Resultados das transcrições e OCR
+└── chat_history/                 # Histórico das conversas do chatbot
 ```
-
----
-
-## 🚀 Funcionalidades
-
-- 💬 **Chatbot com IA** — Conversação inteligente via interface web
-- 🔍 **OCR** — Extração de texto a partir de imagens e documentos enviados pelo usuário
-- 📁 **Upload de arquivos** — Suporte ao envio de arquivos para processamento
-- 💾 **Histórico de chat** — Armazenamento do histórico de conversas
-- 🌐 **Interface web responsiva** — Frontend acessível pelo navegador
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 | Camada | Tecnologia |
-|--------|-----------|
-| Backend | Python + Flask |
-| Frontend | HTML, CSS, JavaScript |
-| IA / Chatbot | Integração via `chatbot_backend.py` |
-| OCR | Integração via `ocr_backend.py` |
-| Logs | Sistema de logging Python |
+| :--- | :--- |
+| **Backend** | Python 3.8+ / Flask |
+| **IA Conversacional** | Ollama (Llama 3.2) / Transformers |
+| **Transcrição** | OpenAI Whisper / MoviePy / Pytubefix |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Logs** | Sistema de logging nativo do Python |
 
 ---
 
 ## ⚙️ Instalação e Execução
 
 ### Pré-requisitos
+*   Python 3.8 ou superior.
+*   [FFmpeg](https://ffmpeg.org/) instalado no sistema (necessário para processamento de vídeo/áudio).
+*   [Ollama](https://ollama.ai/) (opcional, para o módulo de Chatbot local).
 
-- Python 3.8+
-- pip
+### Passo a Passo
 
-### Passo a passo
+1.  **Clone o repositório**:
+    ```bash
+    git clone <url-do-repositorio>
+    cd aether_ia
+    ```
 
-```bash
-# 1. Clone o repositório
-git clone <url-do-repositorio>
-cd aether_ia
+2.  **Crie um ambiente virtual**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Linux/macOS
+    venv\Scripts\activate     # Windows
+    ```
 
-# 2. Crie e ative um ambiente virtual (recomendado)
-python -m venv venv
-source venv/bin/activate        # Linux/macOS
-venv\Scripts\activate           # Windows
+3.  **Instale as dependências**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-# 3. Instale as dependências
-pip install -r requirements.txt
-
-# 4. Inicie a aplicação
-python app.py
-```
-
-A aplicação estará disponível em `http://localhost:5000` (ou a porta configurada no `app.py`).
-
----
-
-## 📦 Dependências
-
-As dependências do projeto estão listadas em `requirements.txt`. Para instalá-las:
-
-```bash
-pip install -r requirements.txt
-```
+4.  **Inicie a aplicação**:
+    ```bash
+    python app.py
+    ```
+    Acesse em: `http://localhost:5000`
 
 ---
 
-## 📁 Diretórios Gerados em Tempo de Execução
+## 📝 Logs e Monitoramento
 
-| Diretório | Descrição |
-|-----------|-----------|
-| `uploads/` | Arquivos enviados pelos usuários para processamento |
-| `outputs/` | Resultados gerados (ex: textos extraídos via OCR) |
-| `temp/` | Arquivos temporários durante o processamento |
-| `chat_history/` | Histórico de conversas do chatbot |
-
-> ⚠️ Esses diretórios são criados automaticamente pela aplicação. Não é necessário criá-los manualmente.
+O sistema mantém registros detalhados para facilitar a depuração:
+*   `aether_ia.log`: Erros e eventos gerais da aplicação.
+*   `transcription.log`: Histórico detalhado de cada transcrição de vídeo realizada, incluindo tempo de processamento e idioma detectado.
 
 ---
-
-## 📝 Logs
-
-- `aether_ia.log` — Log geral da aplicação (erros, requisições, eventos)
-- `transcription.log` — Log específico das transcrições de OCR
-
----
-
-
+> ⚠️ **Nota**: Os diretórios de trabalho (`uploads/`, `outputs/`, `temp/`) são criados automaticamente na primeira execução.
