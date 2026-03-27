@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Aether IA - Plataforma Integrada de Inteligência Artificial
-Sistema completo com Chatbot, OCR e Transcrição de Vídeo
-"""
+
 
 import os
 import sys
