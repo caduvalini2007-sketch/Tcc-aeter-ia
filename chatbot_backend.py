@@ -1,6 +1,3 @@
-"""
-Chatbot AI - Backend compatível com app.py usando Ollama
-"""
 
 import os
 import time
